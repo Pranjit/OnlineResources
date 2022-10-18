@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<map xml:lang="nl-NL">
+  <contentId translate="no">http://id.tomtom.com/map/africa/nav4-no-3d-no-fts</contentId>
+  <version translate="no">1095</version>
+  <locale translate="no">en_gb</locale>
+  <sku translate="no">1SAA.121.61.10.95</sku>
+  <type translate="no">Map/Mapzone</type>
+  <islive translate="no">false</islive>
+  <title id="title_1095" translate="yes">Afrika</title>
+  <iqrEnabled translate="no">true</iqrEnabled>
+  <sub_title id="subtitle_1095" translate="yes"> coverageDB titles </sub_title>
+  <salesText id="salesText_1095" translate="yes"> coverageDB salesText</salesText>
+  <iq_routes id="iq_routes_1095" translate="yes"> Speed Profiles van IQ Routes™ berekenen de snelste routes voor ieder moment van de dag.</iq_routes>
+</map>

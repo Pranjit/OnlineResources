@@ -1,0 +1,3603 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dita xmlns:tomtom="http://www.tomtom.com/metadata">
+   <topic product="CDATA" rev="CDATA" xml:lang="en-GB">
+      <body>
+         <screen>
+            <uicontrol id="tt_mobile_email_field" otherprops="Text" translate="yes">Email address</uicontrol>
+            <fn>The email address field used as identifier for the NavCloud account.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_password_field" otherprops="Text" translate="yes">Password</uicontrol>
+            <fn>The password field used to authenticate to NavCloud.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_yes_confirm" otherprops="Button" translate="yes">Yes</uicontrol>
+            <fn>Yes button.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_no_confirm" otherprops="Button" translate="yes">No</uicontrol>
+            <fn>No button</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_cancel" otherprops="Button" translate="yes">Cancel</uicontrol>
+            <fn>Cancel string</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_alert_dialog_button_ok"
+                       otherprops="Text"
+                       translate="yes">OK</uicontrol>
+            <fn>text shown on button that closes error dialogs that pop-up at various locations in the app.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="alert_dialog_button_settings" otherprops="Text" translate="yes">Settings</uicontrol>
+            <fn>text shown on button that opens bluetooth settings</fn>
+         </screen>
+         <screen>
+            <uicontrol id="alert_dialog_un_pair_bluetooth_message"
+                       otherprops="Text"
+                       translate="yes">Looks like you've connected this TomTom device before. To connect it again, first go to your phone's Bluetooth settings and remove the device from the list of paired devices, then scan the QR code again.</uicontrol>
+            <fn>text shown dialog when trying to pair a bluetooth device that is already paired</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_toast_sync_ok" otherprops="Text" translate="yes">Synced with MyDrive</uicontrol>
+            <fn>text shown on toast when cloud data synced success</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_toast_publish_ok" otherprops="Text" translate="yes">Your trip has been published. Thank you!</uicontrol>
+            <fn>text shown on toast when route publishing succeeded</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_toast_unpublish_ok" otherprops="Text" translate="yes">Your trip has been unpublished.</uicontrol>
+            <fn>text shown on toast when cloud unpublishing succeeded</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_toast_sync_fail" otherprops="Text" translate="yes">Syncing failed</uicontrol>
+            <fn>text shown on toast when cloud data syncing or route publishing/unpublishing failed</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_title_create_account"
+                       otherprops="Title"
+                       translate="yes">CREATE A TOMTOM ACCOUNT</uicontrol>
+            <fn>During create account; Title of the screen</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_createaccount_firstname"
+                       otherprops="Text"
+                       translate="yes">First name</uicontrol>
+            <fn>During create account; Personal information first name</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_createaccount_lastname"
+                       otherprops="Text"
+                       translate="yes">Last name</uicontrol>
+            <fn>During create account; Personal information last name</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_createaccount_gender_male"
+                       otherprops="Text"
+                       translate="yes">Male</uicontrol>
+            <fn>During create account; Personal information gender option: male</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_createaccount_gender_female"
+                       otherprops="Text"
+                       translate="yes">Female</uicontrol>
+            <fn>During create account; Personal information gender option: female</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_createaccount_showpassword"
+                       otherprops="Text"
+                       translate="yes">Show password</uicontrol>
+            <fn>During create account; Show the password</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_createaccount_mktg" otherprops="Text" translate="yes">Keep me up to date with TomTom news and the latest information on products and services</uicontrol>
+            <fn>During create account; Checkbox send me news and special offers</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_createaccount_create"
+                       otherprops="Button"
+                       translate="yes">Create Account</uicontrol>
+            <fn>The button in the create account screen to actually create the account</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_createaccount_country_field"
+                       otherprops="Text"
+                       translate="yes">Country</uicontrol>
+            <fn>During create account; select the country where you live.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_createaccount_state_field"
+                       otherprops="Text"
+                       translate="yes">State</uicontrol>
+            <fn>During create account; In case country is US, This option will become available.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_title_countrylist" otherprops="Title" translate="yes">COUNTRY</uicontrol>
+            <fn>Create account; Country screen.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_countrylist_warning"
+                       otherprops="Text"
+                       translate="yes">Country selection is used for invoices and promotions, and cannot be changed later.</uicontrol>
+            <fn>Create account; Country screen message.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_title_statelist" otherprops="Title" translate="yes">STATE</uicontrol>
+            <fn>Create account; State screen title.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_statelist_warning" otherprops="Text" translate="yes">State selection is used for invoices and promotions, and cannot be changed later.</uicontrol>
+            <fn>Create account; State screen message.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_login_title" otherprops="Title" translate="yes">LOG IN WITH YOUR TOMTOM ACCOUNT</uicontrol>
+            <fn>The title for the login screen</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_login_forgotpassword"
+                       otherprops="Text"
+                       translate="yes">Forgotten your password?</uicontrol>
+            <fn>Forgot password link</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_login_button_login"
+                       otherprops="Button"
+                       translate="yes">Log in</uicontrol>
+            <fn>Login button</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_login_button_createaccount"
+                       otherprops="Button"
+                       translate="yes">Create Account</uicontrol>
+            <fn>The button in the login screen to go to the create account screen.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_error_title" otherprops="Text" translate="yes">Error</uicontrol>
+            <fn>Title of error dialog</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_error0" otherprops="Text" translate="yes">An error occurred. Please try again later.</uicontrol>
+            <fn>Error: Unknown</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_error1" otherprops="Text" translate="yes">No Internet Connection. Please check your network settings.</uicontrol>
+            <fn>Error: No internet access.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_error2" otherprops="Text" translate="yes">TomTom services are temporarily unavailable. Please try again later.</uicontrol>
+            <fn>Error: TomTom Services issue. Temporary unavailable.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_error4" otherprops="Text" translate="yes">Your email address doesn't look right. It should be something like name@example.com</uicontrol>
+            <fn>Error: Invalid email address.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_error6" otherprops="Text" translate="yes">Passwords must be between 6 and 32 characters and can only contain letters, numbers, spaces and the characters ! " # $ % &amp; ' ( ) * + , - . / : ; &lt; = &gt; ? @ [ \\ ] ^ _ ` { | } ~</uicontrol>
+            <fn>Error: Password not strong enough.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_error7" otherprops="Text" translate="yes">There is already an account for this email address. Please sign in using this existing TomTom account or create a new account.</uicontrol>
+            <fn>Error: Account name already exists.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_error8" otherprops="Text" translate="yes">The username or password you have entered is incorrect.</uicontrol>
+            <fn>Error: Authentication failed.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_error10" otherprops="Text" translate="yes">We couldn't log you in. Please try again.</uicontrol>
+            <fn>Error: Unknown login error.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_error13" otherprops="Text" translate="yes">The transaction was incomplete. You have not been charged.</uicontrol>
+            <fn>Error: Transaction error.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_error14" otherprops="Text" translate="yes">There was a problem accessing the TomTom shop.\nPlease try again.</uicontrol>
+            <fn>Error: TomTom shop connection issue.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_error15" otherprops="Text" translate="yes">Your transaction was successful but something went wrong when your purchase was registered with TomTom. We will automatically register your purchase again. If you continue to experience problems, please contact TomTom Customer support.</uicontrol>
+            <fn>Error: Transaction successful, but registration failed.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_error_wrong_location"
+                       otherprops="Text"
+                       translate="yes">Oops, there's something wrong with this location.</uicontrol>
+            <fn>Error: The imported location contains out of the range coordinates.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_nav_cloud_activation_title_text"
+                       otherprops="Title"
+                       translate="yes">WHAT'S NEW</uicontrol>
+            <fn>After logging in the first time with this version of the application there is a new screen to show new features of the app.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_nav_cloud_activation_body_text"
+                       otherprops="Text"
+                       translate="yes">Use MyDrive to sync locations and places with all your TomTom devices</uicontrol>
+            <fn>Activate MyDrive message</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_nav_cloud_activation_reject_button_text"
+                       otherprops="Button"
+                       translate="yes">Skip</uicontrol>
+            <fn>Do not activate MyDrive location sync.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_nav_cloud_activation_accept_button_text"
+                       otherprops="Button"
+                       translate="yes">Activate</uicontrol>
+            <fn>Activate MyDrive location sync</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_title_privacy_agreement"
+                       otherprops="Title"
+                       translate="yes">YOUR INFORMATION &amp; PRIVACY</uicontrol>
+            <fn>Privacy agreement; Title</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_title_confirm" otherprops="Title" translate="yes">ARE YOU SURE?</uicontrol>
+            <fn>Privacy agreement; reject are you sure screen title</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_body_confirm" otherprops="Text" translate="yes">If we can't store locations you won't be able to sync with MyDrive.\n\nAre you sure?</uicontrol>
+            <fn>Privacy agreement; reject message what is the effect for the user.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_privacy_information"
+                       otherprops="Text"
+                       translate="yes">Some features require information like your location and the information you enter to be sent to TomTom or stored on your device.</uicontrol>
+            <fn>Privacy agreement legal text</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_privacy_more_information"
+                       otherprops="Text"
+                       translate="yes">Learn more</uicontrol>
+            <fn>Privacy agreement button to see more information</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_button_ok" otherprops="Button" translate="yes">OK</uicontrol>
+            <fn>text shown on button to accept privacy agreement.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="legal_general" otherprops="Text" translate="yes">General</uicontrol>
+            <fn>text shown on button to view general legal agreement.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="legal_tomtom_account" otherprops="Text" translate="yes">TomTom Account</uicontrol>
+            <fn>text shown on button to view account legal agreement.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="legal_mydrive" otherprops="Text" translate="yes">MyDrive</uicontrol>
+            <fn>text shown on button to view mydrive legal agreement.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="legal_connecting_pnd" otherprops="Text" translate="yes">TomTom navigation device</uicontrol>
+            <fn>text shown on button to view PND legal agreement.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="legal_other_uses" otherprops="Text" translate="yes">Other uses of your data</uicontrol>
+            <fn>text shown on button to other legal agreement.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="legal_help_improve" otherprops="Text" translate="yes">Help us improve the app</uicontrol>
+            <fn>text shown on button to toggle analytics in the app.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="legal_improve_read_more" otherprops="Text" translate="yes">Learn more</uicontrol>
+            <fn>text shown below button to toggle analytics in the app.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_title_howto_connect"
+                       otherprops="Title"
+                       translate="yes">HOW TO CONNECT</uicontrol>
+            <fn>Connect app to device tutorial title.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_button_howto_pg1_title_android"
+                       otherprops="Text"
+                       translate="yes">STEP 1: TURN ON BLUETOOTH</uicontrol>
+            <fn>Step 1: summary</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_button_howto_pg1_body_android"
+                       otherprops="Text"
+                       translate="yes">Make sure your phone is visible to other devices.</uicontrol>
+            <fn>Step 1: detail</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_button_howto_pg2_title"
+                       otherprops="Text"
+                       translate="yes">STEP 2: CONNECT YOUR TOMTOM DEVICE</uicontrol>
+            <fn>Step 2: summary</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_button_howto_pg2_body"
+                       otherprops="Text"
+                       translate="yes">On your device, follow the instructions in the TomTom Services menu to connect your phone.</uicontrol>
+            <fn>Step 2: detail</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_button_howto_pg3_title"
+                       otherprops="Text"
+                       translate="yes">STEP 3: ACTIVATE TOMTOM SERVICES</uicontrol>
+            <fn>Step 3: summary</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_button_howto_pg3_body"
+                       otherprops="Text"
+                       translate="yes">Log in or create an account on your device to activate your TomTom services.</uicontrol>
+            <fn>Step 3: detail</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_button_howto_pg4_title"
+                       otherprops="Text"
+                       translate="yes">NEED HELP?</uicontrol>
+            <fn>Last step in tutorial. Link to additional help: summary.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_button_howto_pg4_body"
+                       otherprops="Text"
+                       translate="yes">Go to tomtom.com/connect for more information.</uicontrol>
+            <fn>Last step in tutorial. Link to additional help: detail</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_title_about_tutorial"
+                       otherprops="Title"
+                       translate="yes">TOMTOM DEVICE</uicontrol>
+            <fn>Screen for people who do not have a TomTom device yet.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_button_about_pg1_title"
+                       otherprops="Text"
+                       translate="yes">THE ALL NEW TOMTOM GO</uicontrol>
+            <fn>Reasons to buy TomTom 1 summary.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_button_about_pg1_body"
+                       otherprops="Text"
+                       translate="yes">Now comes with TomTom Traffic.</uicontrol>
+            <fn>Reasons to buy TomTom 1 message.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_button_about_pg2_title"
+                       otherprops="Text"
+                       translate="yes">TOMTOM TRAFFIC</uicontrol>
+            <fn>Reasons to buy TomTom 2 summary.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_button_about_pg2_body"
+                       otherprops="Text"
+                       translate="yes">Pinpoints exactly where delays start and end so you always know your fastest route.</uicontrol>
+            <fn>Reasons to buy TomTom 2 message.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_button_about_pg13_title"
+                       otherprops="Text"
+                       translate="yes">MORE INFO</uicontrol>
+            <fn>Reasons to buy TomTom 3 summary.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_button_about_pg13_body"
+                       otherprops="Text"
+                       translate="yes">Go to tomtom.com/drive/car for more information.</uicontrol>
+            <fn>Reasons to buy TomTom 3 message.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_no_search_results" otherprops="Text" translate="yes">No addresses found</uicontrol>
+            <fn>no search results for addresses.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_search_no_pois_found"
+                       otherprops="Text"
+                       translate="yes">No Points of Interest found</uicontrol>
+            <fn>no search results for points of interest.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_search_hint" otherprops="Text" translate="yes">Search for addresses and POIs</uicontrol>
+            <fn>Hint in search box</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_search_addresses" otherprops="Text" translate="yes">Addresses</uicontrol>
+            <fn>Tab element used to switch to the results containing addresses.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_search_pois" otherprops="Text" translate="yes">Points of Interest</uicontrol>
+            <fn>Tab element used to switch to the results containing points of interest.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_search_address_hint"
+                       otherprops="Text"
+                       translate="yes">Search for address</uicontrol>
+            <fn>Hint in search box</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_spinner_msg" otherprops="Text" translate="yes">One moment please…</uicontrol>
+            <fn>The message which appears under the spinner during searching location in NKW</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_title_tomtom_services_subsciptions"
+                       otherprops="Title"
+                       translate="yes">TRAFFIC &amp; SAFETY CAMERAS</uicontrol>
+            <fn>TomTom Service subsciptions title; Title</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_tomtom_services_subsciptions_button"
+                       otherprops="Text"
+                       translate="yes">TomTom Traffic and Safety Cameras</uicontrol>
+            <fn>Button for open service subsciptions screen</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_ttservices_ttcloud"
+                       otherprops="Title"
+                       translate="yes">MyDrive</uicontrol>
+            <fn>TomTom MyDrive connection item.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_ttservices_ttcloud_active"
+                       otherprops="Text"
+                       translate="yes">Activated</uicontrol>
+            <fn>TomTom MyDrive connection status connected.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_ttservices_ttcloud_notloggedin"
+                       otherprops="Text"
+                       translate="yes">Not logged in</uicontrol>
+            <fn>TomTom MyDrive connection not connected.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_title_navcloud" otherprops="Title" translate="yes">MYDRIVE</uicontrol>
+            <fn>MyDrive connected screen title.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_nc_info_primary" otherprops="Text" translate="yes">The locations and places on this device are automatically synced with MyDrive.</uicontrol>
+            <fn>MyDrive connected screen message.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_nc_logged_in_as" otherprops="Text" translate="yes">Logged in as:</uicontrol>
+            <fn>MyDrive connection info</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_nc_info_secondary" otherprops="Text" translate="yes">If you log out, you will stop syncing with MyDrive.</uicontrol>
+            <fn>MyDrive connected screen addition message</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_title_menu" otherprops="Title" translate="yes">MENU</uicontrol>
+            <fn>Menu title</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_menu_routeplanner" otherprops="Text" translate="yes">PLAN ROUTE</uicontrol>
+            <fn>Main menu item: Route Planner</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_menu_myplaces" otherprops="Text" translate="yes">MY PLACES</uicontrol>
+            <fn>Main menu item: My Places</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_menu_contacts" otherprops="Text" translate="yes">CONTACTS</uicontrol>
+            <fn>Main menu item: Contacts</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_menu_traffic_checker"
+                       otherprops="Text"
+                       translate="yes">TRAFFIC CHECKER</uicontrol>
+            <fn>Main menu item: Traffic Checker</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_menu_ttaccount" otherprops="Text" translate="yes">TOMTOM ACCOUNT</uicontrol>
+            <fn>Main menu item: TomTom account</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_menu_pairdevice" otherprops="Text" translate="yes">CONNECT YOUR DEVICE</uicontrol>
+            <fn>Main menu item: Connect your device</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_menu_yourdevice" otherprops="Text" translate="yes">YOUR TOMTOM DEVICE</uicontrol>
+            <fn>Main menu item: Your TomTom Device</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_menu_settings" otherprops="Text" translate="yes">SETTINGS</uicontrol>
+            <fn>Main menu item: Settings</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_menu_about" otherprops="Text" translate="yes">ABOUT</uicontrol>
+            <fn>Main menu item: About</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_title_home" otherprops="Title" translate="yes">STATUS</uicontrol>
+            <fn>Device connection status.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_devicetile_title_btoff"
+                       otherprops="Text"
+                       translate="yes">BLUETOOTH IS OFF</uicontrol>
+            <fn>Bluetooth status off summary.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_devicetile_body_btoff"
+                       otherprops="Text"
+                       translate="yes">Switch on Bluetooth in your phone's settings</uicontrol>
+            <fn>Bluetooth status off detail.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_devicetile_title_nopnd"
+                       otherprops="Text"
+                       translate="yes">NOT CONNECTED</uicontrol>
+            <fn>Device not in range summary.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_devicetile_body_nopnd"
+                       otherprops="Text"
+                       translate="yes">Make sure your TomTom device is on and within range</uicontrol>
+            <fn>Device not in range detail.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_devicetile_title_yespnd"
+                       otherprops="Text"
+                       translate="yes">CONNECTED TO YOUR $1#</uicontrol>
+            <fn>Device connected and within range summary.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_devicetile_body_yespnd"
+                       otherprops="Text"
+                       translate="yes">Sharing your phone's internet connection</uicontrol>
+            <fn>Device connected and within range detail.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_servicestile_title_networkoff"
+                       otherprops="Text"
+                       translate="yes">NO INTERNET CONNECTION</uicontrol>
+            <fn>Phone not connected to internet summary.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_servicestile_body_networkoff"
+                       otherprops="Text"
+                       translate="yes">Make sure you're connected to a 3G or 4G network</uicontrol>
+            <fn>Phone not connected to internet detail.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_servicestile_title_subinactive"
+                       otherprops="Text"
+                       translate="yes">YOU'RE NOT LOGGED IN</uicontrol>
+            <fn>MyDrive app not logged in summary.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_servicestile_body_subinactive"
+                       otherprops="Text"
+                       translate="yes">To connect to TomTom services you must be logged in to a TomTom account</uicontrol>
+            <fn>MyDrive app not logged in detail</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_servicestile_title_subactive"
+                       otherprops="Text"
+                       translate="yes">YOUR SUBSCRIPTIONS ARE ACTIVE</uicontrol>
+            <fn>Shows that subscriptions are active summary.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_servicestile_button_subactive"
+                       otherprops="Text"
+                       translate="yes">Renew</uicontrol>
+            <fn>Button that allows the user to renew their services subscription.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_servicestile_title_subexpired"
+                       otherprops="Text"
+                       translate="yes">YOUR SERVICES HAVE EXPIRED</uicontrol>
+            <fn>All TomTom services subscriptions are expired summary</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_servicestile_body_subexpired"
+                       otherprops="Text"
+                       translate="yes">All your TomTom services have expired but you can easily renew them</uicontrol>
+            <fn>All TomTom services subscriptions are expired detail</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_servicestile_title_servererror"
+                       otherprops="Text"
+                       translate="yes">UNABLE TO CONNECT</uicontrol>
+            <fn>TomTom services connection error summary</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_servicestile_body_servererror"
+                       otherprops="Text"
+                       translate="yes">TomTom Services are temporarily unavailable</uicontrol>
+            <fn>TomTom services connection error detail</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_servicestile_title_contactingserver"
+                       otherprops="Text"
+                       translate="yes">UPDATING…</uicontrol>
+            <fn>Retrieving subscription information.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_servicestile_title_one_subactive"
+                       otherprops="Text"
+                       translate="yes">YOU HAVE ONE ACTIVE SUBSCRIPTION</uicontrol>
+            <fn>One valid active subscription.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_servicestile_title_two_subactive"
+                       otherprops="Text"
+                       translate="yes">YOU HAVE TWO ACTIVE SUBSCRIPTIONS</uicontrol>
+            <fn>Two valid active subscriptions.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_servicestile_expiressoon"
+                       otherprops="Text"
+                       translate="yes">(Expires soon)</uicontrol>
+            <fn>One or more of your TomTom service subscriptions is about to expire.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_servicestile_expired"
+                       otherprops="Text"
+                       translate="yes">(Expired)</uicontrol>
+            <fn>One or more of your TomTom service subscriptions is expired.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_title_myttaccount" otherprops="Title" translate="yes">TOMTOM ACCOUNT</uicontrol>
+            <fn>TomTom services screen; Title</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_sub_email" otherprops="Title" translate="yes">EMAIL</uicontrol>
+            <fn>TomTom services screen; subtitle email.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_sub_linked" otherprops="Text" translate="yes">Linked to your TomTom device</uicontrol>
+            <fn>TomTom services screen; device connected message</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_sub_notlinked" otherprops="Text" translate="yes">Not linked to your TomTom device</uicontrol>
+            <fn>TomTom services screen; device not connected message</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_sub_subscriptions" otherprops="Title" translate="yes">SUBSCRIPTIONS</uicontrol>
+            <fn>TomTom services screen; subtitle subscriptions</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_button_shop" otherprops="Button" translate="yes">TomTom Shop</uicontrol>
+            <fn>TomTom services screen; link to the TomTom shop.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_expires" otherprops="Text" translate="yes">Expires: $1#</uicontrol>
+            <fn>TomTom services screen; Expiration date for TomTom services.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_expired" otherprops="Text" translate="yes">Expired</uicontrol>
+            <fn>TomTom services screen; Already expired</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_confirmlogout" otherprops="Message" translate="yes">Are you sure you want to log out?</uicontrol>
+            <fn>TomTom services screen; Logout button pressed</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_service_traffic" otherprops="Text" translate="yes">TomTom Traffic</uicontrol>
+            <fn>TomTom services screen; TomTom Traffic item.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_service_camera" otherprops="Text" translate="yes">TomTom Safety Cameras</uicontrol>
+            <fn>TomTom services screen; TomTom Safety camera item.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_service_camerafrance"
+                       otherprops="Text"
+                       translate="yes">Danger Zones</uicontrol>
+            <fn>TomTom services screen; When in france (regardless of the system language) this must be Danger zones instead of something related to safety camera's</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_lifetime" otherprops="Text" translate="yes">Lifetime</uicontrol>
+            <fn>TomTom service has lifetime subscription.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_title_about_screen"
+                       otherprops="Title"
+                       translate="yes">ABOUT</uicontrol>
+            <fn>About screen; title</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_sub_support" otherprops="Title" translate="yes">SUPPORT</uicontrol>
+            <fn>About screen; subtitle Support.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_body_help_contact" otherprops="Text" translate="yes">For further help, visit tomtom.com/support</uicontrol>
+            <fn>About screen; support contact.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_sub_general" otherprops="Title" translate="yes">GENERAL</uicontrol>
+            <fn>About screen; subtitle general.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_link_terms_and_conditions"
+                       otherprops="Button"
+                       translate="yes">Terms and Conditions</uicontrol>
+            <fn>link to the terms and conditions information screen in the About screen.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_title_about_copyright"
+                       otherprops="Button"
+                       translate="yes">Copyright</uicontrol>
+            <fn>About screen; Link to the Copyright screen</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_link_how_we_use_your_data"
+                       otherprops="Button"
+                       translate="yes">Your information &amp; privacy</uicontrol>
+            <fn>About screen; Link to Your information and privacy screen.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_sub_version" otherprops="Title" translate="yes">SOFTWARE VERSION</uicontrol>
+            <fn>About screen; subtitle general.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_whats_new" otherprops="Button" translate="yes">New in this version</uicontrol>
+            <fn>About screen; Link to the Whats New screen</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_title_terms_and_conditions"
+                       otherprops="Text"
+                       translate="yes">TERMS AND CONDITIONS</uicontrol>
+            <fn>title of the terms and conditions screen.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_title_copyright" otherprops="Title" translate="yes">COPYRIGHT</uicontrol>
+            <fn>Copyright information screen; title</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_subtitle_map_source"
+                       otherprops="Title"
+                       translate="yes">Data source for map data is based on:</uicontrol>
+            <fn>Copyright information screen; subtitle source for the used map content</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_subtitle_oss" otherprops="Title" translate="yes">Open Source software</uicontrol>
+            <fn>Copyright information screen; subtitle used open source software</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_trafficviewer_body_locoff_android"
+                       otherprops="Text"
+                       translate="yes">TomTom MyDrive would like to use your location. Please switch on location services.</uicontrol>
+            <fn>Locations services disabled message.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_trafficviewer_locoff_cancel"
+                       otherprops="Button"
+                       translate="yes">Cancel</uicontrol>
+            <fn>Location services disabled; do not go to settings screen.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_trafficviewer_locoff_settings"
+                       otherprops="Button"
+                       translate="yes">Settings</uicontrol>
+            <fn>Location services disabled; Link to settings screen to enable it.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_notification_title" otherprops="Text" translate="yes">TomTom MyDrive</uicontrol>
+            <fn>Android notification bar message; Notification title</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_notification_state_bt_off"
+                       otherprops="Text"
+                       translate="yes">Bluetooth is off</uicontrol>
+            <fn>Android notification bar message; Bluetooth is disabled.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_notification_state_bt_connected"
+                       otherprops="Text"
+                       translate="yes">Connected to $1#</uicontrol>
+            <fn>Android notification bar message; Connected succesfully.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_notification_state_bt_not_connected"
+                       otherprops="Text"
+                       translate="yes">Connect your TomTom device</uicontrol>
+            <fn>Android notification bar message; Not connected yet.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_notification_state_bt_connected_generic_device"
+                       otherprops="Text"
+                       translate="yes">TomTom device</uicontrol>
+            <fn>Generic placeholder for tt_mobile_notification_state_bt_connected string when device name is not known.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_traffic_alerts" otherprops="Text" translate="yes">TRAFFIC ALERTS</uicontrol>
+            <fn>Title for the Traffic Alerts list</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_traffic_alerts_add_home_to_work"
+                       otherprops="Text"
+                       translate="yes">ADD HOME TO WORK</uicontrol>
+            <fn>Add home to work list item</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_traffic_alerts_add_work_to_home"
+                       otherprops="Text"
+                       translate="yes">ADD WORK TO HOME</uicontrol>
+            <fn>Add work to home list item</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_traffic_alerts_alarm_home_to_work_lower"
+                       otherprops="Text"
+                       translate="yes">Home to Work</uicontrol>
+            <fn>Name of the alarm Home to Work of the Traffic Alerts</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_traffic_alerts_alarm_work_to_home_lower"
+                       otherprops="Text"
+                       translate="yes">Work to Home</uicontrol>
+            <fn>Name of the alarm Work to Home of the Traffic Alerts</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_traffic_alerts_alarm_home_to_work"
+                       otherprops="Text"
+                       translate="yes">HOME TO WORK</uicontrol>
+            <fn>Name of the alarm Home to Work of the Traffic Alerts</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_traffic_alerts_alarm_work_to_home"
+                       otherprops="Text"
+                       translate="yes">WORK TO HOME</uicontrol>
+            <fn>Name of the alarm Work to Home of the Traffic Alerts</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_traffic_alerts_alarm_title"
+                       otherprops="Text"
+                       translate="yes">I usually arrive at</uicontrol>
+            <fn>title of the Traffic Alerts Alarm screen</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_traffic_alerts_alarm_arrive_at"
+                       otherprops="Text"
+                       translate="yes">Arrival by</uicontrol>
+            <fn>title of the Traffic Alerts Alarm screen</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_traffic_alerts_alarm_save_button"
+                       otherprops="Text"
+                       translate="yes">Save</uicontrol>
+            <fn>Save button in the Traffic Alerts Alarm screen</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_traffic_alerts_alarm_add_places_button"
+                       otherprops="Text"
+                       translate="yes">Add places</uicontrol>
+            <fn>Add places button in the Traffic Alerts Alarm screen</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_traffic_alerts_alarm_AM"
+                       otherprops="Text"
+                       translate="yes">AM</uicontrol>
+            <fn>AM text in case the mobile is in 12 hours format</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_traffic_alerts_alarm_PM"
+                       otherprops="Text"
+                       translate="yes">PM</uicontrol>
+            <fn>PM text in case the mobile is in 12 hours format</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_traffic_alerts_alarm_no_work_home_message"
+                       otherprops="Text"
+                       translate="yes">You must first add your home and work locations to your Places list.</uicontrol>
+            <fn>Message when Home and/or Work are not defined </fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_traffic_alerts_alarm_continue_button"
+                       otherprops="Text"
+                       translate="yes">Continue</uicontrol>
+            <fn>Continue button in the Traffic Alerts Alarm Intro screen</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_traffic_alerts_alarm_intro_message_title"
+                       otherprops="Text"
+                       translate="yes">Let TomTom check the traffic for you</uicontrol>
+            <fn>Title for the message for the intro screen</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_traffic_alerts_alarm_intro_message"
+                       otherprops="Text"
+                       translate="yes">Know the traffic conditions on your daily journey between home and work.</uicontrol>
+            <fn>Message for the intro screen</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_traffic_alerts_alarm_notification_title"
+                       otherprops="Text"
+                       translate="yes">TomTom Traffic Checker</uicontrol>
+            <fn>Title of the notification</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_traffic_alerts_alarm_notification_connection_error_home"
+                       otherprops="Text"
+                       translate="yes">Traffic information is temporarily unavailable.</uicontrol>
+            <fn>Message to use for the notification when the traffic delay could not be retrieved</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_traffic_alerts_alarm_notification_connection_error_work"
+                       otherprops="Text"
+                       translate="yes">Traffic information is temporarily unavailable.</uicontrol>
+            <fn>Message to use for the notification when the traffic delay could not be retrieved</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_traffic_alerts_alarm_notification_alert_me"
+                       otherprops="Text"
+                       translate="yes">Alert me:</uicontrol>
+            <fn>Title of the option to decide when to alert me</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_traffic_alerts_alarm_notification_alert_always"
+                       otherprops="Text"
+                       translate="yes">Always, even when there is no traffic</uicontrol>
+            <fn>Description of the option to decide when to alert me. Always.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_traffic_alerts_alarm_notification_alert_more_than_5_minutes"
+                       otherprops="Text"
+                       translate="yes">When delay is more than 5 min</uicontrol>
+            <fn>Description of the option to decide when to alert me. Delay is more than 5 minutes</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_traffic_alerts_alarm_notification_alert_more_than_10_minutes"
+                       otherprops="Text"
+                       translate="yes">When delay is more than 10 min</uicontrol>
+            <fn>Description of the option to decide when to alert me. Delay is more than 10 minutes</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_traffic_alerts_alarm_notification_alert_more_than_15_minutes"
+                       otherprops="Text"
+                       translate="yes">When delay is more than 15 min</uicontrol>
+            <fn>Description of the option to decide when to alert me. Delay is more than 15 minutes</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_title_shop_caps" otherprops="Title" translate="yes">TOMTOM SHOP</uicontrol>
+            <fn>TomTom Shop screen; Title</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_loading_shop" otherprops="Text" translate="yes">Loading…</uicontrol>
+            <fn>TomTom Shop screen; Loading in progress.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_button_shop_free" otherprops="Text" translate="yes">Free</uicontrol>
+            <fn>TomTom Shop screen; An item without charge.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_price_purchased" otherprops="Text" translate="yes">Purchased</uicontrol>
+            <fn>TomTom Shop screen; An item already bought</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_price_unavailable" otherprops="Text" translate="yes">Not Available</uicontrol>
+            <fn>TomTom Shop screen; An item not available on Google Play</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_price_purchasepending"
+                       otherprops="Text"
+                       translate="yes">Purchase pending</uicontrol>
+            <fn>TomTom Shop screen; An item with a purchase pending</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_notice2" otherprops="Text" translate="yes">Your purchase was successful! Please note that it may take a few minutes for your subscription information to be updated.</uicontrol>
+            <fn>Message is shown when the user just bought a subscription using the app.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_assoc_title_PNDnotconnected"
+                       otherprops="Text"
+                       translate="yes">NOT CONNECTED</uicontrol>
+            <fn>In TomTom Shop screen; Device not connected summary.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_assoc_body_PNDnotconnected"
+                       otherprops="Text"
+                       translate="yes">Connect your TomTom device to link it to your TomTom account.</uicontrol>
+            <fn>In TomTom Shop screen; Device not connected detail.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_association_title_assocfailed"
+                       otherprops="Text"
+                       translate="yes">ACCOUNT NOT LINKED</uicontrol>
+            <fn>In TomTom Shop screen; Account not linked summary.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_association_body_assocfailed"
+                       otherprops="Text"
+                       translate="yes">Your TomTom device cannot be linked to your account which means that you cannot make purchases.\nTo link your device to your account, connect your TomTom device to your computer and go to tomtom.com/getstarted.</uicontrol>
+            <fn>In TomTom Shop screen; Account not linked detail.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_loading_linking" otherprops="Text" translate="yes">Linking your device to your account.\nThis may take a few minutes…</uicontrol>
+            <fn>In TomTom Shop screen; Device linking in progress.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_title_trafficviewer"
+                       otherprops="Title"
+                       translate="yes">MAP</uicontrol>
+            <fn>Map view; Title</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_trafficviewer_popup_action_send_to_device"
+                       otherprops="Button"
+                       translate="yes">Send to Device</uicontrol>
+            <fn>Map view; location selected, action send destination to device.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_trafficviever_popup_action_set_route_start"
+                       otherprops="Button"
+                       translate="yes">Start here</uicontrol>
+            <fn>Map view; Use this point as a departure in map.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_trafficviever_popup_action_set_route_end"
+                       otherprops="Button"
+                       translate="yes">SET AS DESTINATION</uicontrol>
+            <fn>Map view; Use this point as a destination in route planner.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_trafficviever_popup_action_route"
+                       otherprops="Button"
+                       translate="yes">Plan Route</uicontrol>
+            <fn>Map view; Calculate a route to this location.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_trafficviewer_popup_action_add_to_route"
+                       otherprops="Button"
+                       translate="yes">Add to Route</uicontrol>
+            <fn>Map view; Add this point to the route.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_trafficviewer_popup_action_remove_from_route"
+                       otherprops="Button"
+                       translate="yes">Remove from Route</uicontrol>
+            <fn>Map view; Remove this point from the route.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_trafficviewer_popup_action_save_car_location"
+                       otherprops="Button"
+                       translate="yes">Save as parking location</uicontrol>
+            <fn>Add this point as an parking location</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_trafficviewer_popup_action_add_home"
+                       otherprops="Button"
+                       translate="yes">ADD AS HOME</uicontrol>
+            <fn>Map view; location selected, contextual menu, mark as home location</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_trafficviewer_popup_action_add_work"
+                       otherprops="Button"
+                       translate="yes">ADD AS WORK</uicontrol>
+            <fn>Map view; location selected, contextual menu, mark as work location</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_trafficviewer_popup_action_add"
+                       otherprops="Button"
+                       translate="yes">Add to My Places</uicontrol>
+            <fn>Map view; location selected, contextual menu, add as a favourite</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_trafficviewer_popup_action_remove"
+                       otherprops="Button"
+                       translate="yes">Remove from My Places</uicontrol>
+            <fn>Map view; favourite selected, contextual menu, option to remove</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_trafficviewer_popup_action_rename"
+                       otherprops="Button"
+                       translate="yes">Change Name</uicontrol>
+            <fn>Map view; favourite selected, contextual menu, option to edit</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_trafficviewer_popup_action_walk"
+                       otherprops="Button"
+                       translate="yes">Walk here</uicontrol>
+            <fn>Map view; last car favourite selected, contextual menu, option to walk</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_trafficviewer_popup_additional_address_text"
+                       otherprops="Text"
+                       translate="yes">You are here</uicontrol>
+            <fn>Additional text for balloon address, appears which the chevron is clicked and accuracy is on thr proper level</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_trafficviever_popup_degree_north"
+                       otherprops="Text"
+                       translate="yes">°N</uicontrol>
+            <fn>Map view; Location selected GPS coordinate</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_trafficviever_popup_degree_east"
+                       otherprops="Text"
+                       translate="yes">°E</uicontrol>
+            <fn>Map view; Location selected GPS coordinate</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_trafficviever_popup_degree_south"
+                       otherprops="Text"
+                       translate="yes">°S</uicontrol>
+            <fn>Map view; Location selected GPS coordinate</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_trafficviever_popup_degree_west"
+                       otherprops="Text"
+                       translate="yes">°W</uicontrol>
+            <fn>Map view; Location selected GPS coordinate</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_timeOffset_seconds" otherprops="Text" translate="yes">sec</uicontrol>
+            <fn>Show a time offset when it is under a minute. i.e. 30 sec</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_timeOffset_minutes" otherprops="Text" translate="yes">min</uicontrol>
+            <fn>Show a time offset when it is less then a Hour. i.e. 1:05 min</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_timeOffset_hours" otherprops="Text" translate="yes">hr</uicontrol>
+            <fn>Show a time offset when it is less then a day. i.e. 1:45 hr</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_timeOffset_days" otherprops="Text" translate="yes">d</uicontrol>
+            <fn>Show a time offset when it is more then one day. i.e: 2(1/2) d</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_trafficviewer_incidentcluster_default_description"
+                       otherprops="Text"
+                       translate="yes">Multiple incidents</uicontrol>
+            <fn>Map view; Multiple traffic incidents clustered</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_lbs_incident_description_queueing_traffic"
+                       otherprops="Text"
+                       translate="yes">Backed up traffic</uicontrol>
+            <fn>Map view; Traffic incident description.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_lbs_incident_description_blocked_carriageways"
+                       otherprops="Text"
+                       translate="yes">Blocked lanes</uicontrol>
+            <fn>Map view; Traffic incident description.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_lbs_incident_description_stationary_traffic"
+                       otherprops="Text"
+                       translate="yes">Traffic jam</uicontrol>
+            <fn>Map view; Traffic incident description.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_plan_route_traffic_delay"
+                       otherprops="Text"
+                       translate="yes">Including $1# delay</uicontrol>
+            <fn>When there is a route planned it will show the traffic delay using this: [time offset] Traffic, where time offset = 1:30 min</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_plan_route_zero_traffic_delay"
+                       otherprops="Text"
+                       translate="yes">No traffic on your route</uicontrol>
+            <fn>When there is a route planned with no traffic delay it will show a string saying that there's no traffic on your route</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_route_eta_distance_title"
+                       otherprops="Text"
+                       translate="yes">Distance:</uicontrol>
+            <fn>Route summary. the distance of the planned route</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_route_eta_arrive_title"
+                       otherprops="Text"
+                       translate="yes">Arrive:</uicontrol>
+            <fn>Route summary. The estimated time of arrival</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_plan_route_current_location"
+                       otherprops="Text"
+                       translate="yes">Current location</uicontrol>
+            <fn>When planning a route, origin will be filled with current location if the devices knows it</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_plan_route_loading_destination_address"
+                       otherprops="Text"
+                       translate="yes">Looking up address</uicontrol>
+            <fn>When planning a route, destination will be filled with loading destination address if the cannot reverse geocode the address on time</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_route_planner_contracted_stop"
+                       otherprops="Text"
+                       translate="yes">Stops</uicontrol>
+            <fn>Summary of stops along a route like '5 Stops'</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_route_planner_optimize_route_popup"
+                       otherprops="Text"
+                       translate="yes">Automatically reorder your stops to get the best route.</uicontrol>
+            <fn>Alert shown when tapping the optimize route button</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_route_planner_optimize_route_toast_already_optimal"
+                       otherprops="Text"
+                       translate="yes">This is already the most optimal route.</uicontrol>
+            <fn>Message saying that the route is already optimal and further optimization is not possible</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_route_planner_optimize_route_toast_optimized"
+                       otherprops="Text"
+                       translate="yes">Route order has been optimised.</uicontrol>
+            <fn>Message saying that the order of waypoints has been optimized (to make route faster)</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_route_planner_optimize_route_toast_optimization_failed"
+                       otherprops="Text"
+                       translate="yes">Server error, route not optimised.</uicontrol>
+            <fn>Message saying that route optimization is not possible due to server error</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_route_planner_routing_error_popup"
+                       otherprops="Text"
+                       translate="yes">Oops - a new route could not be planned. Please try again later.</uicontrol>
+            <fn>Error message saying that there was a server error when calculating the route</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_route_planner_routing_error_exceeds_maximum_thrilling_length_popup"
+                       otherprops="Text"
+                       translate="yes">Your thrilling route must be less than $var_s_1#$var_s_2#</uicontrol>
+            <fn>Error message when calculated thrill route distance exceeds the maximum length</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_route_planner_routing_error_exceeds_maximum_avoid_motorways_length_popup"
+                       otherprops="Text"
+                       translate="yes">The distance between your waypoints must be less than $var_s_1#$var_s_2# when avoiding Motorways.</uicontrol>
+            <fn>Error message when calculated fastest avoid motorway route distance exceeds the maximum length</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_route_planner_send_destination_to_device_button"
+                       otherprops="Button"
+                       translate="yes">Send destination</uicontrol>
+            <fn>Button allowing to synchronize the destination with a PND</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_route_planner_send_stops_to_device_button"
+                       otherprops="Button"
+                       translate="yes">Send stops</uicontrol>
+            <fn>Button allowing to synchronize the route with stops with a PND</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_route_planner_send_to_device_popup"
+                       otherprops="Text"
+                       translate="yes">The waypoints for this route will be sent to your device. To see them, log in on your device with your TomTom account:</uicontrol>
+            <fn>Text explaining the functionality behind the Send to device button</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_route_planner_options_title"
+                       otherprops="Text"
+                       translate="yes">OPTIONS</uicontrol>
+            <fn>Title for the Route Planner options screen</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_route_planner_options_vehicle_type"
+                       otherprops="Text"
+                       translate="yes">VEHICLE TYPE</uicontrol>
+            <fn>Title for the vehicle type section in the Route Planner options screen</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_route_planner_options_route_type"
+                       otherprops="Text"
+                       translate="yes">ROUTE TYPE</uicontrol>
+            <fn>Title for the route type section in the Route Planner options screen</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_route_planner_options_vehicle_measurements"
+                       otherprops="Text"
+                       translate="yes">VEHICLE MEASUREMENTS</uicontrol>
+            <fn>Vehicle measurements for trucks in the Route Planner options screen</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_route_planner_options_avoid_on_route"
+                       otherprops="Text"
+                       translate="yes">AVOID ON ROUTE</uicontrol>
+            <fn>Title for the avoid on route type section in the Route Planner options screen</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_route_planner_options_motorways_included"
+                       otherprops="Text"
+                       translate="yes">Motorways are already excluded from Thrill</uicontrol>
+            <fn>Avoid motorways text in the Route Planner options screen when thrill option selected</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_route_planner_options_hazmat"
+                       otherprops="Text"
+                       translate="yes">HAZMAT</uicontrol>
+            <fn>Truck Hazmat selection in the Route Planner options screen</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_route_planner_options_fastest"
+                       otherprops="Text"
+                       translate="yes">Fastest</uicontrol>
+            <fn>Fastest option in the Route Planner options screen</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_route_planner_options_shortest"
+                       otherprops="Text"
+                       translate="yes">Shortest</uicontrol>
+            <fn>Shortest option in the Route Planner options screen</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_route_planner_options_thrill"
+                       otherprops="Text"
+                       translate="yes">Thrill</uicontrol>
+            <fn>Thrill option in the Route Planner options screen</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_route_planner_options_exact"
+                       otherprops="Text"
+                       translate="yes">Exact</uicontrol>
+            <fn>Exact (gpx) option in the Route Planner options screen</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_route_planner_options_motorways"
+                       otherprops="Text"
+                       translate="yes">Motorways</uicontrol>
+            <fn>Motorways option in the Route Planner options screen</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_route_planner_options_tunnels"
+                       otherprops="Text"
+                       translate="yes">Tunnels</uicontrol>
+            <fn>Tunnels option in the Route Planner options screen</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_route_planner_options_ferries"
+                       otherprops="Text"
+                       translate="yes">Ferries/car shuttle trains</uicontrol>
+            <fn>Ferries option in the Route Planner options screen</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_route_planner_options_toll_roads"
+                       otherprops="Text"
+                       translate="yes">Toll roads</uicontrol>
+            <fn>Toll roads option in the Route Planner options screen</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_route_planner_options_carpool_lanes"
+                       otherprops="Text"
+                       translate="yes">Carpool lanes</uicontrol>
+            <fn>Carpool lanes option in the Route Planner options screen</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_route_planner_options_unpaved_roads"
+                       otherprops="Text"
+                       translate="yes">Unpaved roads</uicontrol>
+            <fn>Unpaved roads option in the Route Planner options screen</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_route_planner_options_camper_type_caravan"
+                       otherprops="Text"
+                       translate="yes">Car with Caravan</uicontrol>
+            <fn>Title for the camper type caravan in the Route Planner options screen</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_route_planner_options_camper_type_light"
+                       otherprops="Text"
+                       translate="yes">Camper (Light)</uicontrol>
+            <fn>Title for the camper type heavy in the Route Planner options screen</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_route_planner_options_camper_type_heavy"
+                       otherprops="Text"
+                       translate="yes">Camper (Heavy)</uicontrol>
+            <fn>Fastest option in the Route Planner options screen</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_route_planner_options_length"
+                       otherprops="Text"
+                       translate="yes">Length</uicontrol>
+            <fn>Length option in the Route Planner options screen</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_route_planner_options_width"
+                       otherprops="Text"
+                       translate="yes">Width</uicontrol>
+            <fn>Width option in the Route Planner options screen</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_route_planner_options_height"
+                       otherprops="Text"
+                       translate="yes">Height</uicontrol>
+            <fn>Height option in the Route Planner options screen</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_route_planner_options_gross_weight"
+                       otherprops="Text"
+                       translate="yes">Gross weight</uicontrol>
+            <fn>Gross weight option in the Route Planner options screen</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_route_planner_options_axle_weight"
+                       otherprops="Text"
+                       translate="yes">Axle weight</uicontrol>
+            <fn>Axle weight option in the Route Planner options screen</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_route_planner_options_max_speed"
+                       otherprops="Text"
+                       translate="yes">Max. speed</uicontrol>
+            <fn>Max. speed option in the Route Planner options screen</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_route_planner_options_eu" otherprops="Text" translate="yes">EU</uicontrol>
+            <fn>EU Truck option in the Route Planner options screen</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_route_planner_options_uk" otherprops="Text" translate="yes">UK</uicontrol>
+            <fn>UK Truck option in the Route Planner options screen</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_route_planner_options_us" otherprops="Text" translate="yes">US</uicontrol>
+            <fn>US Truck option in the Route Planner options screen</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_route_planner_options_ca" otherprops="Text" translate="yes">CA</uicontrol>
+            <fn>CA Truck option in the Route Planner options screen</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_route_planner_options_other"
+                       otherprops="Text"
+                       translate="yes">Other</uicontrol>
+            <fn>Other Truck option in the Route Planner options screen</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_route_planner_options_explosive_materials"
+                       otherprops="Text"
+                       translate="yes">Explosive materials</uicontrol>
+            <fn>Explosive materials Truck option in the Route Planner options screen</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_route_planner_options_general_hazardous_materials"
+                       otherprops="Text"
+                       translate="yes">General hazardous materials</uicontrol>
+            <fn>General hazardous materials Truck option in the Route Planner options screen</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_route_planner_options_goods_harmful_to_water"
+                       otherprops="Text"
+                       translate="yes">Goods harmful to water</uicontrol>
+            <fn>Goods harmful to water Truck option in the Route Planner options screen</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_route_planner_options_usa_canada_and_mexico"
+                       otherprops="Text"
+                       translate="yes">USA, Canada, and Mexico</uicontrol>
+            <fn>USA, Canada, and Mexico Truck option in the Route Planner options screen</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_route_planner_options_class_1_explosives"
+                       otherprops="Text"
+                       translate="yes">Class 1, explosives</uicontrol>
+            <fn>Class 1, explosives Truck option in the Route Planner options screen</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_route_planner_options_class_2_gases"
+                       otherprops="Text"
+                       translate="yes">Class 2, gases</uicontrol>
+            <fn>Class 2, gases Truck option in the Route Planner options screen</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_route_planner_options_class_3_flammable_liquids"
+                       otherprops="Text"
+                       translate="yes">Class 3, flammable liquids</uicontrol>
+            <fn>Class 3, flammable liquids Truck option in the Route Planner options screen</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_route_planner_options_class_4_flammable_solids"
+                       otherprops="Text"
+                       translate="yes">Class 4, flammable solids</uicontrol>
+            <fn>Class 4, flammable solids Truck option in the Route Planner options screen</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_route_planner_options_class_5_oxidizing_agents_and_organic_peroxides"
+                       otherprops="Text"
+                       translate="yes">Class 5, oxidizing agents and organic peroxides</uicontrol>
+            <fn>Class 5, oxidizing agents and organic peroxides Truck option in the Route Planner options screen</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_route_planner_options_class_6_toxic_and_infectious_substances"
+                       otherprops="Text"
+                       translate="yes">Class 6, toxic and infectious substances</uicontrol>
+            <fn>Class 6, toxic and infectious substances Truck option in the Route Planner options screen</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_route_planner_options_class_7_radioactive_substances"
+                       otherprops="Text"
+                       translate="yes">Class 7, radioactive substances</uicontrol>
+            <fn>Class 7, radioactive substances Truck option in the Route Planner options screen</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_route_planner_options_class_8_corrosive_substances"
+                       otherprops="Text"
+                       translate="yes">Class 8, corrosive substances</uicontrol>
+            <fn>Class 8, corrosive substances Truck option in the Route Planner options screen</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_route_planner_options_class_9_miscellaneous"
+                       otherprops="Text"
+                       translate="yes">Class 9, miscellaneous</uicontrol>
+            <fn>Class 9, miscellaneous Truck option in the Route Planner options screen</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_discover_road_trips_title" otherprops="Text" translate="yes">TomTom Road Trips</uicontrol>
+            <fn>Title of the screen with the TomTom Road Trips</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_error18" otherprops="Text" translate="yes">This route is not available. Why not plan a new route?</uicontrol>
+            <fn>GOR Error: itinerary is private and the user does not have rights to access it.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_error19" otherprops="Text" translate="yes">Oops - we can't find this route. Looks like the route was deleted. Why not plan a new route?</uicontrol>
+            <fn>GOR Error: itinerary no longer exists.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_menu_myroutes" otherprops="Text" translate="yes">MY ROUTES</uicontrol>
+            <fn>Main menu item: My Routes</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_add_route" otherprops="Button" translate="yes">ADD ROUTE</uicontrol>
+            <fn>Button to add new route from MyRoutes screen</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_new_route" otherprops="Button" translate="yes">New</uicontrol>
+            <fn>Label that marks recently copied route</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_route_published" otherprops="Text" translate="yes">Published</uicontrol>
+            <fn>Label that marks published route</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_route_missing_information"
+                       otherprops="Text"
+                       translate="yes">Missing information</uicontrol>
+            <fn>Information label, indicating that route additional information is unavailable</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_no_routes_available_message"
+                       otherprops="Text"
+                       translate="yes">No routes available</uicontrol>
+            <fn>Error message when no routes are available</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_route_eta_save_to_my_routes"
+                       otherprops="Text"
+                       translate="yes">Save to My Routes</uicontrol>
+            <fn>ETA Panel save route button title</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_save_my_route" otherprops="Text" translate="yes">SAVE TO MY ROUTES</uicontrol>
+            <fn>Save my route view controller title</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_edit_my_route" otherprops="Text" translate="yes">EDIT ITINERARY DETAILS</uicontrol>
+            <fn>Save my route view controller alternative title</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_save_my_route_switch_title"
+                       otherprops="Text"
+                       translate="yes">Sync this route as a track with my devices</uicontrol>
+            <fn>Save my route sync switch label</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_save_my_route_default_title_format"
+                       otherprops="Text"
+                       translate="yes">$var_s_1# to $var_s_2#</uicontrol>
+            <fn>Route default name format</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_save_my_route_name_placeholder"
+                       otherprops="Text"
+                       translate="yes">Enter route name</uicontrol>
+            <fn>Route name text field placeholder</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_save_my_route_save_button"
+                       otherprops="Button"
+                       translate="yes">Save</uicontrol>
+            <fn>Route save button</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_save_my_route_saving_sync_popup_message"
+                       otherprops="Text"
+                       translate="yes">Your route will be available as a track in My Routes on your TomTom device. Log in on your device using your TomTom account.</uicontrol>
+            <fn>Route save sync to navcloud popup message</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_save_my_route_saving_sync_popup_compatible_devices"
+                       otherprops="Text"
+                       translate="yes">Show compatible devices</uicontrol>
+            <fn>Route save sync to navcloud popup show compatible devices button title</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_save_my_route_saving_sync_popup_never_show_again"
+                       otherprops="Text"
+                       translate="yes">Don't show this again</uicontrol>
+            <fn>Route save sync to navcloud popup never show again button title</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_save_my_route_saving_sync_popup_ok"
+                       otherprops="Text"
+                       translate="yes">Got It</uicontrol>
+            <fn>Route save sync to navcloud popup ok button title</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_publish_metadata_missing_popup_unpublish_title"
+                       otherprops="Text"
+                       translate="yes">What about your story?</uicontrol>
+            <fn>Route publish popup title</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_publish_metadata_missing_popup_unpublish_description"
+                       otherprops="Text"
+                       translate="yes">If you continue then your trip will no longer be visible for the community. In order to keep it published, you need to add:</uicontrol>
+            <fn>Route publish popup description</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_publish_metadata_missing_title"
+                       otherprops="Text"
+                       translate="yes">A suitable title (min. 5 characters)</uicontrol>
+            <fn>Route publish popup missing or short title</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_publish_metadata_missing_tag"
+                       otherprops="Text"
+                       translate="yes">At least one tag</uicontrol>
+            <fn>Route publish popup missing at least one tag</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_publish_metadata_missing_description"
+                       otherprops="Text"
+                       translate="yes">A summary of your trip (min. 30 characters)</uicontrol>
+            <fn>Route publish popup description missing or short</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_publish_metadata_missing_photo"
+                       otherprops="Text"
+                       translate="yes">Nice photo</uicontrol>
+            <fn>Route publish popup photo missing</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_publish_metadata_copied_photo"
+                       otherprops="Text"
+                       translate="yes">This photo belongs to another user on TomTom Road Trips. Why not make your route personal by uploading a photo from your own collection?</uicontrol>
+            <fn>Route publish popup photo not original</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_publish_popup_error_duplicate_title"
+                       otherprops="Text"
+                       translate="yes">We cannot publish your story</uicontrol>
+            <fn>Route publish popup duplicate itinerary title</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_publish_popup_error_duplicate_description"
+                       otherprops="Text"
+                       translate="yes">The trip you are trying to publish is already available on TomTom Road Trips. Why not create one of your own?</uicontrol>
+            <fn>Route publish popup duplicate itinerary description</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_save_my_route_saving_error_message"
+                       otherprops="Text"
+                       translate="yes">Your route can't be saved at the moment.</uicontrol>
+            <fn>Your route can't be saved at the moment.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_save_my_route_saving_error_ok"
+                       otherprops="Text"
+                       translate="yes">OK</uicontrol>
+            <fn>Route save error cancel action title</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_save_my_route_saving_error_retry"
+                       otherprops="Text"
+                       translate="yes">Try again</uicontrol>
+            <fn>Route save error retry action title</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_enrich_add_photo" otherprops="Text" translate="yes">Add Photo</uicontrol>
+            <fn>Enrich add photo</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_enrich_change_photo"
+                       otherprops="Text"
+                       translate="yes">Change Photo</uicontrol>
+            <fn>Enrich change photo</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_enrich_description_placeholder"
+                       otherprops="Text"
+                       translate="yes">Add a description</uicontrol>
+            <fn>Enrich add description</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_enrich_tag_holiday" otherprops="Text" translate="yes">Holiday</uicontrol>
+            <fn>Enrich tag Holiday</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_enrich_tag_weekend" otherprops="Text" translate="yes">Weekend</uicontrol>
+            <fn>Enrich tag Weekend</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_enrich_tag_day_trip"
+                       otherprops="Text"
+                       translate="yes">Day trip</uicontrol>
+            <fn>Enrich tag Day trip</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_enrich_tag_coastal" otherprops="Text" translate="yes">Coastal</uicontrol>
+            <fn>Enrich tag Coastal</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_enrich_tag_cultural"
+                       otherprops="Text"
+                       translate="yes">Cultural</uicontrol>
+            <fn>Enrich tag Cultural</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_enrich_tag_historical"
+                       otherprops="Text"
+                       translate="yes">Historical</uicontrol>
+            <fn>Enrich tag Historical</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_enrich_tag_mountain"
+                       otherprops="Text"
+                       translate="yes">Mountain</uicontrol>
+            <fn>Enrich tag Mountain</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_enrich_tag_forest" otherprops="Text" translate="yes">Forest</uicontrol>
+            <fn>Enrich tag Forest</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_enrich_tag_epic" otherprops="Text" translate="yes">Epic</uicontrol>
+            <fn>Enrich tag Epic</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_enrich_photo_error_filetype"
+                       otherprops="Text"
+                       translate="yes">Please use an image file of type .jpeg, .png or .gif</uicontrol>
+            <fn>Enrich error photo format</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_enrich_photo_error_filesize"
+                       otherprops="Text"
+                       translate="yes">Please use a photo smaller than 20MB</uicontrol>
+            <fn>Enrich error photo size</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_enrich_photo_error_dimensions"
+                       otherprops="Text"
+                       translate="yes">Please use an image resolution of at least 1600 x 800</uicontrol>
+            <fn>Enrich error photo resolution</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_save_route_drove_route_switch_title"
+                       otherprops="Text"
+                       translate="yes">Yes, I drove this route</uicontrol>
+            <fn>Route timeframe switch title</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_save_route_drove_route_want_to_tell_us"
+                       otherprops="Text"
+                       translate="yes">Want to tell us when?</uicontrol>
+            <fn>Route timeframe button title</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_save_route_drove_route_popup_confirm_button_title"
+                       otherprops="Text"
+                       translate="yes">Select</uicontrol>
+            <fn>Route timeframe popup confirm button title</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_save_route_best_months_recommended_time"
+                       otherprops="Text"
+                       translate="yes">My recommended time to drive:</uicontrol>
+            <fn>Best months to drive section header label</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_save_route_best_months_want_to_show_us"
+                       otherprops="Text"
+                       translate="yes">Want to show us the best month(s)?</uicontrol>
+            <fn>Best months to drive section button title</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_save_route_best_months_in_which_periods"
+                       otherprops="Text"
+                       translate="yes">Which months are the best to drive this route in?</uicontrol>
+            <fn>Best months to drive section popup header label</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_menu_road_trips" otherprops="Text" translate="yes">$1#</uicontrol>
+            <fn>Main menu item: Road trips</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_route_preview_share"
+                       otherprops="Text"
+                       translate="yes">Share</uicontrol>
+            <fn>Route preview: Share button</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_mail_sharing_subject"
+                       otherprops="Text"
+                       translate="yes">Check out my road trip on TomTom MyDrive</uicontrol>
+            <fn>Sharing via email title</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_mail_sharing_message"
+                       otherprops="Text"
+                       translate="yes">To view it in your browser click on this link:</uicontrol>
+            <fn>Sharing via email message</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_route_preview_edit" otherprops="Text" translate="yes">Edit Route</uicontrol>
+            <fn>Route preview: Edit Route button</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_route_preview_delete"
+                       otherprops="Text"
+                       translate="yes">Delete</uicontrol>
+            <fn>Route preview: Delete button</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_route_preview_copy" otherprops="Text" translate="yes">Copy to My Routes</uicontrol>
+            <fn>Route preview: Copy to my routes button</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_itinerary_syncing_title"
+                       otherprops="Text"
+                       translate="yes">Syncing</uicontrol>
+            <fn>Route preview: Syncing</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_itinerary_syncing_description"
+                       otherprops="Text"
+                       translate="yes">Do you want to sync this route as a track with your devices?</uicontrol>
+            <fn>Route preview: Description of syncing</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_route_preview_share_publish_link"
+                       otherprops="Text"
+                       translate="yes">Your route on $1#</uicontrol>
+            <fn>Route preview: Published link</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_route_preview_share_publish_track_title"
+                       otherprops="Text"
+                       translate="yes">Publish on $1#</uicontrol>
+            <fn>Route preview: Publishing</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_route_preview_share_publish_track_message"
+                       otherprops="Text"
+                       translate="yes">Be part of the community and share your trip with others</uicontrol>
+            <fn>Route preview: Publishing message</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_publish_metadata_missing_popup_title"
+                       otherprops="Text"
+                       translate="yes">Complete your story</uicontrol>
+            <fn>Route publishing popup title</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_publish_metadata_missing_popup_description"
+                       otherprops="Text"
+                       translate="yes">Add the following details to your trip and make it more attractive for the community on $1#:</uicontrol>
+            <fn>Route publishing popup description</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_publish_metadata_missing_popup_edit"
+                       otherprops="Text"
+                       translate="yes">Edit Route Details</uicontrol>
+            <fn>Route publishing popup edit button</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_moible_route_preview_publish_explanation_title"
+                       otherprops="Text"
+                       translate="yes">Be part of the community and share your trip with others</uicontrol>
+            <fn>Route preview: Publishing additional info button title</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_publish_explanation_popup_title"
+                       otherprops="Text"
+                       translate="yes">Share your story</uicontrol>
+            <fn>Route preview: Publishing additional info popup title</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_publish_explanation_popup_description_format_text"
+                       otherprops="Text"
+                       translate="yes">Be part of the TomTom community by sharing your great road trip experience with fellow travellers! By publishing, other travellers can see your road trip, rate it, and enjoy it! Ready to become the road trip expert?</uicontrol>
+            <fn>Route preview: Publishing additional info popup description text</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_publish_explanation_popup_description_format_link"
+                       otherprops="Text"
+                       translate="yes">Visit $var_s_1# at $var_s_2#</uicontrol>
+            <fn>Route preview: Publishing additional info popup description link format</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_publish_explanation_popup_additional_info_format"
+                       otherprops="Text"
+                       translate="yes">Your published road trip and content will be used and treated in line with our Terms &amp; Conditions as described at\n$1#</uicontrol>
+            <fn>Route preview: Publishing additional info popup more info label format</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_deleting_published_route_message"
+                       otherprops="Text"
+                       translate="yes">If you continue deleting then your trip will no longer be visible for the community.</uicontrol>
+            <fn>Route preview: Deleting published route warning message</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_route_preview_drove_route_prefix"
+                       otherprops="Text"
+                       translate="yes">Driven</uicontrol>
+            <fn>Route preview route timeframe format</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_route_preview_best_months_to_drive"
+                       otherprops="Text"
+                       translate="yes">Recommended time to drive:</uicontrol>
+            <fn>Route preview best months label</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_welcome_next_button"
+                       otherprops="Button"
+                       translate="yes">Next</uicontrol>
+            <fn>Button to start Welcome tour</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_welcome_get_started_button"
+                       otherprops="Button"
+                       translate="yes">Get started</uicontrol>
+            <fn>Button that sends the user to the privacy agreement</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_title_welcome_1" otherprops="Text" translate="yes">Plan routes with accurate arrival times.</uicontrol>
+            <fn>Welcome screen carousel title 1 message</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_title_welcome_2" otherprops="Text" translate="yes">Search for millions of places and save your favourite ones.</uicontrol>
+            <fn>Welcome screen carousel title 2 message</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_title_welcome_3" otherprops="Text" translate="yes">Get notified about traffic for your commute before you get into the car.</uicontrol>
+            <fn>Welcome screen carousel title 3 message</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_title_welcome_4" otherprops="Text" translate="yes">Send your destination and favourites to your TomTom device.</uicontrol>
+            <fn>Welcome screen carousel title 4 message</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_pair_your_device_screen_no_device_button"
+                       otherprops="Button"
+                       translate="yes">I Don't Have a Device</uicontrol>
+            <fn>Button for people who do not have a TomTom device.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_whats_new_got_it_button"
+                       otherprops="Button"
+                       translate="yes">Got it!</uicontrol>
+            <fn>Button to finish the Whats New tour</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_title_whats_new_screen_1"
+                       otherprops="Text"
+                       translate="yes">Improved connectivity</uicontrol>
+            <fn>Title for the first screen of the stack and the generic improvements screen (when stand alone)</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_body_whats_new_screen_1"
+                       otherprops="Text"
+                       translate="yes">The stability of the Bluetooth connection with your TomTom device has been improved. Please update your TomTom device to the latest software to connect to it.</uicontrol>
+            <fn>Body text for the first screen of the stack</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_title_settings" otherprops="Title" translate="yes">SETTINGS</uicontrol>
+            <fn>MyDrive app settings screen title.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_setting_connectivityservice_header"
+                       otherprops="Title"
+                       translate="yes">CONNECTIVITY</uicontrol>
+            <fn>Header for connectivity service settings</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_setting_onoffconnectivityservice"
+                       otherprops="Text"
+                       translate="yes">Turn on connectivity service automatically</uicontrol>
+            <fn>Allow a connected TomTom device to use your phone internet connection.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_setting_desc_onoffconnectivityservice"
+                       otherprops="Text"
+                       translate="yes">Turning off this setting will prevent your TomTom device connecting to your phone.</uicontrol>
+            <fn>Description what will happen if the user disables connectivity service.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_trafficviewer_popup_action_clear_destination"
+                       otherprops="Button"
+                       translate="yes">Remove from Device</uicontrol>
+            <fn>Map view; Clear destination.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_error16" otherprops="Text" translate="yes">It is not possible to add this location to your route.</uicontrol>
+            <fn>Error: There is no route possible to the given location.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_waiting_for_location" otherprops="" translate="yes">Getting your current location. Please wait.</uicontrol>
+            <fn>You try to plan a route, although there is no known location yet. The user is informed the action cannot complete</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_route_planner_round_trip" otherprops="" translate="yes">Round Trip</uicontrol>
+            <fn>Round trip button</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_myplaces_promo_label"
+                       otherprops="Text"
+                       translate="yes">Collect and sync your favourite places</uicontrol>
+            <fn>Label for MyPlaces promo.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_add_favorite_screen_title"
+                       otherprops="Button"
+                       translate="yes">ADD A NEW PLACE</uicontrol>
+            <fn>Title of adding favorite screen</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_edit_favorite_screen_title"
+                       otherprops="Button"
+                       translate="yes">CHANGE NAME</uicontrol>
+            <fn>Title of edit favorite screen</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_add_favorite_name_hint"
+                       otherprops="Button"
+                       translate="yes">Name (optional)</uicontrol>
+            <fn>Hint for adding favorite's name</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_add_favorite_confirm_button"
+                       otherprops="Button"
+                       translate="yes">Done</uicontrol>
+            <fn>Confirm button in add new place screen</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_add_favorite_no_name"
+                       otherprops="Button"
+                       translate="yes">No name</uicontrol>
+            <fn>No name for favorite entered</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_add_home_screen_title"
+                       otherprops="Button"
+                       translate="yes">ADD HOME</uicontrol>
+            <fn>Title of adding favorite screen - home</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_add_work_screen_title"
+                       otherprops="Button"
+                       translate="yes">ADD WORK</uicontrol>
+            <fn>Title of adding favorite screen - work</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_add_home_button" otherprops="Button" translate="yes">ADD HOME</uicontrol>
+            <fn>The name of the button for adding home location from MyPlaces menu item.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_add_work_button" otherprops="Button" translate="yes">ADD WORK</uicontrol>
+            <fn>The name of the button for adding work location from MyPlaces menu item.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_add_favorite" otherprops="Button" translate="yes">ADD A NEW PLACE</uicontrol>
+            <fn>Button to add generic favorite from MyPlaces screen</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_ttaccount_title" otherprops="Text" translate="yes">TOMTOM ACCOUNT</uicontrol>
+            <fn>Title of the screen to show information about the user's account</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_ttaccount_info1" otherprops="Text" translate="yes">You are logged in. Your destination and saved places are automatically synced with MyDrive and accessible on all your devices.</uicontrol>
+            <fn>Description of the benefits the user has by being logged into MyDrive with their TomTom account on the app. First part</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_ttaccount_logout" otherprops="Button" translate="yes">Log Out</uicontrol>
+            <fn>Button to log out of MyDrive</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_empty_contacts_list_description"
+                       otherprops="Text"
+                       translate="yes">You do not have any contacts with address information.</uicontrol>
+            <fn>Empty contacts list string.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_contact_multiple_addresses"
+                       otherprops="Text"
+                       translate="yes">Multiple Addresses</uicontrol>
+            <fn>Contact has multiple addresses.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_contact_no_address" otherprops="Text" translate="yes">No Address</uicontrol>
+            <fn>Contact has no address.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_contact_address_type_home"
+                       otherprops="Text"
+                       translate="yes">HOME</uicontrol>
+            <fn>Contact home address.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_contact_address_type_work"
+                       otherprops="Text"
+                       translate="yes">WORK</uicontrol>
+            <fn>Contact work address.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_contact_address_type_custom"
+                       otherprops="Text"
+                       translate="yes">CUSTOM</uicontrol>
+            <fn>Contact custom address.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_contact_address_type_other"
+                       otherprops="Text"
+                       translate="yes">OTHER</uicontrol>
+            <fn>Contact other address.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_contact_wrong_address_description"
+                       otherprops="Text"
+                       translate="yes">Address not found. Check your contact's address.</uicontrol>
+            <fn>Contact wrong address warning.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_contact_wrong_address_multiple_description"
+                       otherprops="Text"
+                       translate="yes">Multiple addresses found. Please select one.</uicontrol>
+            <fn>Contact wrong address warning because of multiple result.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_select_button" otherprops="Text" translate="yes">Select</uicontrol>
+            <fn>Button to go the list of addresses found after a search for addresses returned multiple addresses</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_contact_wrong_address_search"
+                       otherprops="Button"
+                       translate="yes">Search</uicontrol>
+            <fn>Contact wrong address search button.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_contact_update_on_device_warning"
+                       otherprops="Text"
+                       translate="yes">This will change the content of your phonebook. Are you sure you want to update this address?</uicontrol>
+            <fn>Contact warning dialog before updating address for a contact on device.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_contact_update_on_device_warning_positive"
+                       otherprops="Button"
+                       translate="yes">Yes</uicontrol>
+            <fn>Confirm update address for a contact on device</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_contact_update_on_device_warning_negative"
+                       otherprops="Button"
+                       translate="yes">No</uicontrol>
+            <fn>Decline update address for a contact on device.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_subregistration" otherprops="Text" translate="yes">Processing…</uicontrol>
+            <fn>when acquiring a subscription - while the user waits for confirmation</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_authorizationstatus_alertview_title"
+                       otherprops="Title"
+                       translate="yes">TomTom MyDrive would like to use your location</uicontrol>
+            <fn>Apple requires acceptance by the user</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_locationservice_authorizationstatus_alertview_message"
+                       otherprops="Text"
+                       translate="yes">Please turn on Location Services in settings.</uicontrol>
+            <fn>specific message for iOS users to use location services</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_button_howto_pg1_title_ios"
+                       otherprops="Title"
+                       translate="yes">STEP 1: TURN ON BLUETOOTH</uicontrol>
+            <fn>how to view - pairing with device specific for iOS - title</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_button_howto_pg1_body_ios"
+                       otherprops="Text"
+                       translate="yes">Do not leave the Bluetooth setting screen until your TomTom device is connected.</uicontrol>
+            <fn>how to view - pairing with device specific for iOS - body</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_button_i_dont_agree"
+                       otherprops="Button"
+                       translate="yes">I don't agree</uicontrol>
+            <fn>button for privacy agreement</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_button_i_agree" otherprops="Button" translate="yes">I agree</uicontrol>
+            <fn>button for privacy agreement</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_alert_range" otherprops="Text" translate="yes">Make sure your TomTom device is on and within range</uicontrol>
+            <fn>Make sure your TomTom device is on and within range</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_no_permission_contacts_list_text1"
+                       otherprops="Text"
+                       translate="yes">We will need your permission to show contacts from your phone.</uicontrol>
+            <fn>pop-up message when showing the users contacts in our application to tell the user we need his permission</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_no_permission_contacts_list_text1_ios7"
+                       otherprops="Text"
+                       translate="yes">We will need your permission to show contacts from your phone. To do this, go to 'Settings &gt; Privacy &gt; Contacts &gt; MyDrive'.</uicontrol>
+            <fn>pop-up message when showing the users contacts in our application to tell the user we need his permission only in iOS version 7</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_navcloud_logged_out_message"
+                       otherprops="Text"
+                       translate="yes">An error has occurred. Please log in again to continue syncing your locations and places with MyDrive.</uicontrol>
+            <fn>pop-up message when a problem occured with the connection to navcloud to tell the user he needs to log in again for access to the cloud</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_ios_location_permission_explanation"
+                       otherprops="Text"
+                       translate="yes">Location is required to find out where you are</uicontrol>
+            <fn>In a pop-up asking the user to enable location permission: a string explaining why we need to know the user's location</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_loading_create_account"
+                       otherprops="Text"
+                       translate="yes">Creating your account…</uicontrol>
+            <fn>In account creation screen, information text when creating the account is in progress</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_loading_logging_in" otherprops="Text" translate="yes">Logging in…</uicontrol>
+            <fn>Text under the spinner that is shown when the user is logging in</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_title_no_internet" otherprops="Title" translate="yes">TOMTOM MYDRIVE</uicontrol>
+            <fn>Title of a screen notifying that internet connection is not available.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_error17" otherprops="Text" translate="yes">Please update your application to the latest version to continue using MyDrive.</uicontrol>
+            <fn>Error: 410 Server Error, User needs to update.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_alert_update" otherprops="Button" translate="yes">Update</uicontrol>
+            <fn>Button title leading to the appstore application page</fn>
+         </screen>
+         <screen>
+            <uicontrol id="mad_NSContactsUsageDescription"
+                       otherprops="Text"
+                       translate="yes">Used to plan routes to your contacts.</uicontrol>
+            <fn>Alert subtitle with explanation on why the application needs access to the user's contacts</fn>
+         </screen>
+         <screen>
+            <uicontrol id="mad_NSPhotoLibraryUsageDescription"
+                       otherprops="Text"
+                       translate="yes">Required for app usage analytics.</uicontrol>
+            <fn>Alert subtitle with explanation on why the application needs access to the user's photo library</fn>
+         </screen>
+         <screen>
+            <uicontrol id="mad_NSBluetoothPeripheralUsageDescription"
+                       otherprops="Text"
+                       translate="yes">Used to connect to your TomTom device.</uicontrol>
+            <fn>Alert subtitle explaining that connection to the PND has failed</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_ios_title_welcome_3"
+                       otherprops="Text"
+                       translate="yes">Easily check traffic on your commute before you get into the car.</uicontrol>
+            <fn>iOS Welcome screen carousel title 3 message</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_enrich_gallery_permission_denied"
+                       otherprops="Text"
+                       translate="yes">In order to add a photo you need to give MyDrive permission to access your photo gallery.</uicontrol>
+            <fn>Alert message for case when access to image library is denied</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_enrich_gallery_permission_restricted"
+                       otherprops="Text"
+                       translate="yes">You're not allowed to add a photo. It's either not supported by your device or it has been blocked by parental control.</uicontrol>
+            <fn>Alert message for case when access to image library is restricted</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_pairing_screen_next_button"
+                       otherprops="Button"
+                       translate="yes">Next</uicontrol>
+            <fn>A button in startup flow that lets user to proceed to the next screen</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_pairing_screen_retry_button"
+                       otherprops="Button"
+                       translate="yes">Retry</uicontrol>
+            <fn>A button in startup flow that allows the user to retry pairing in case of a failure</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_prato_pair_your_devices_title"
+                       otherprops="Title"
+                       translate="yes">PAIR YOUR DEVICES</uicontrol>
+            <fn>Title of a screen in startup flow where the user can pair to a PND via Bluetooth</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_pairing_instruction_qr_step3_ios"
+                       otherprops="Text"
+                       translate="yes">Keep your TomTom device near your phone.</uicontrol>
+            <fn>Part of the first instruction explaining how to pair a device, see qr_step1 and qr_step2 for previous steps</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_prato_get_ready_to_connect_help_step_1"
+                       otherprops="Text"
+                       translate="yes">On your phone, open Bluetooth in the Settings menu.</uicontrol>
+            <fn>Part of the second instruction explaining how to pair a device</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_prato_get_ready_to_connect_help_step_2"
+                       otherprops="Text"
+                       translate="yes">Switch on Bluetooth.</uicontrol>
+            <fn>Part of the second instruction explaining how to pair a device</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_prato_get_ready_to_connect_help_step_3"
+                       otherprops="Text"
+                       translate="yes">Your TomTom device appears in a list on your phone. Tap it to pair.</uicontrol>
+            <fn>Part of the second instruction explaining how to pair a device</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_prato_get_ready_to_connect_help_step_4"
+                       otherprops="Text"
+                       translate="yes">Follow the prompts and then return to the MyDrive app to finish the set-up.</uicontrol>
+            <fn>Part of the second instruction explaining how to pair a device</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_prato_get_ready_to_finish_title"
+                       otherprops="Title"
+                       translate="yes">GET READY TO FINISH THE SET UP</uicontrol>
+            <fn>Title of the pairing screen with instruction to recover from failed pairing</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_prato_get_ready_to_finish_description_1"
+                       otherprops="Text"
+                       translate="yes">Switch on your TomTom device.</uicontrol>
+            <fn>Part of the instruction explaining how to recover from failed pairing</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_prato_get_ready_to_finish_description_2"
+                       otherprops="Text"
+                       translate="yes">Keep your TomTom device near your phone.</uicontrol>
+            <fn>Part of the instruction explaining how to recover from failed pairing</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_prato_flow_notification" otherprops="Text" translate="yes">Go to the MyDrive app to finish the set-up.</uicontrol>
+            <fn>Text of the local notification asking the user to return to MyDrive from iOS Bluetooth Settings screen to complete the pairing process</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_prato_waiting_for_ble_connection"
+                       otherprops="Title"
+                       translate="yes">FINISHING THE SET-UP</uicontrol>
+            <fn>Title of the screen where a user has to wait for a pairing request popup and accept it</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_prato_waiting_for_ble_connection_details"
+                       otherprops="Text"
+                       translate="yes">Accept the pairing request if it appears on your TomTom device.</uicontrol>
+            <fn>Instruction at the screen where a user has to wait for a pairing request popup and accept it</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_prato_connection_error_title"
+                       otherprops="Title"
+                       translate="yes">CONNECTION ERROR</uicontrol>
+            <fn>Title of the first screen notifying about connection error during Bluetooth pairing</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_prato_notification_error_title"
+                       otherprops="Button"
+                       translate="yes">FAILED TO SET UP SMARTPHONE MESSAGES</uicontrol>
+            <fn>Title of the second screen notifying about connection error during Bluetooth pairing</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_prato_connection_error_try_again"
+                       otherprops="Button"
+                       translate="yes">Please try again.</uicontrol>
+            <fn>Button inviting to restart failed pairing</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_pairing_request_notification_permission"
+                       otherprops="Text"
+                       translate="yes">Tap OK to let us guide you through the set-up.</uicontrol>
+            <fn>Explanatory text on a screen where the user waits for a popup requesting permission to show him notifications</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_forgot_password_screen_title"
+                       otherprops="Title"
+                       translate="yes">FORGOT PASSWORD</uicontrol>
+            <fn>Title of a screen allowing to recover forgotten password</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_forgot_password_screen_email_was_send_title"
+                       otherprops="Title"
+                       translate="yes">E-MAIL SENT</uicontrol>
+            <fn>Title of a screen informing that a password recovery e-mail was sent to the user</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_forgot_password_screen_description"
+                       otherprops="Text"
+                       translate="yes">Enter the email address for your account. We'll send you a link to a page where you can easily change your password.</uicontrol>
+            <fn>Information text at Forgot Password screen</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_forgot_password_screen_email_was_send_text"
+                       otherprops="Text"
+                       translate="yes">Thanks! We sent a password reset link to your e-mail address. Please check your inbox and follow the instructions given in the e-mail.</uicontrol>
+            <fn>Information text at the screen informing the user that a password recovery e-mail was sent to him</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_forgot_password_screen_no_user_found_error"
+                       otherprops="Text"
+                       translate="yes">User with this email doesn't exist.</uicontrol>
+            <fn>Error text at password screen explaining that the user with the provided email does not exist</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_forgot_password_screen_button_title"
+                       otherprops="Button"
+                       translate="yes">Send</uicontrol>
+            <fn>Button at Forgot Password screen sending data to TomTom for password recovery</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_device_status_default_title"
+                       otherprops="Title"
+                       translate="yes">YOUR DEVICE</uicontrol>
+            <fn>Title of device connection status screen when the model of the connected device is not known yet</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_device_status_need_configuration"
+                       otherprops="Text"
+                       translate="yes">Pairing has not been completed</uicontrol>
+            <fn>Text at device status screen notifying that Bluetooth pairing was not fully completed</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_connect_promote_pnd_link_ios"
+                       otherprops="Text"
+                       translate="yes">For more information, go to $1#</uicontrol>
+            <fn>Link on the screen where we get people to buy a PND</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_pairing_instruction_help_text_ios"
+                       otherprops="Text"
+                       translate="yes">Here's all you need to know about connecting your phone to your TomTom device: \n\n %1$@ \n\n %2$@</uicontrol>
+            <fn>Extra help text to learn how to connect a device with a web link</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_button_howto_pg4_body_ios"
+                       otherprops="Text"
+                       translate="yes">Go to $1# for more information.</uicontrol>
+            <fn>Last step in PND connection tutorial. Web link to additional help page</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_widget_no_location_permissions"
+                       otherprops="Text"
+                       translate="yes">MyDrive needs permission to use your current location and show you journey times to your Home and Work locations.</uicontrol>
+            <fn>iOS widget error</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_widget_no_route_possible" otherprops="Text" translate="yes">No route possible.</uicontrol>
+            <fn>iOS widget error</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_widget_no_internet_connection"
+                       otherprops="Text"
+                       translate="yes">No internet connection available.</uicontrol>
+            <fn>iOS widget error</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_widget_user_no_logged_in" otherprops="Text" translate="yes">Log in to MyDrive to see journey times to your Home and Work.</uicontrol>
+            <fn>iOS widget error</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_widget_no_home_and_work" otherprops="Text" translate="yes">Add your Home and Work to get journey times to these locations.</uicontrol>
+            <fn>iOS widget error</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_widget_no_home" otherprops="Text" translate="yes">Add your Home location to get the journey time home.</uicontrol>
+            <fn>iOS widget error</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_widget_no_work" otherprops="Text" translate="yes">Add your Work location to get the journey time to work.</uicontrol>
+            <fn>iOS widget error</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_widget_close_to_both_home_and_work"
+                       otherprops="Text"
+                       translate="yes">You appear to be at your destination.</uicontrol>
+            <fn>iOS widget error</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_widget_no_valid_location" otherprops="Text" translate="yes">Current location not available.</uicontrol>
+            <fn>iOS widget error</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_widget_other_error" otherprops="Text" translate="yes">Something went wrong. Please try again later.</uicontrol>
+            <fn>iOS widget error</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_widget_bundle_display_name"
+                       otherprops="Title"
+                       translate="yes">TomTom Traffic Checker</uicontrol>
+            <fn>iOS widget title displayed in Notification Center</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_traffic_checker_tutorial_text_pg1"
+                       otherprops="Text"
+                       translate="yes">Activate the Traffic Checker widget to know the journey time to Home and Work.</uicontrol>
+            <fn>Traffic Checker tutorial text on page 1</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_traffic_checker_tutorial_text_pg2"
+                       otherprops="Text"
+                       translate="yes">You must first add your Home and Work locations to your Places list.</uicontrol>
+            <fn>Traffic Checker tutorial text on page 2</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_traffic_checker_tutorial_text_pg3"
+                       otherprops="Text"
+                       translate="yes">Open your phone's Today screen, scroll to the bottom and press the "Edit" button.</uicontrol>
+            <fn>Traffic Checker tutorial text on page 3</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_traffic_checker_tutorial_text_pg4"
+                       otherprops="Text"
+                       translate="yes">Select TomTom Traffic Checker in the "Do not include" list at the bottom of the screen.</uicontrol>
+            <fn>Traffic Checker tutorial text on page 4</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_traffic_checker_tutorial_text_pg5"
+                       otherprops="Text"
+                       translate="yes">Tap "Done". Use the Traffic Checker widget to always know the journey time to Home and Work.</uicontrol>
+            <fn>Traffic Checker tutorial text on page 5</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_menu_talk_to_us" otherprops="Text" translate="yes">TALK TO US</uicontrol>
+            <fn>Main menu item: Talk To Us</fn>
+         </screen>
+         <screen>
+            <uicontrol id="mad_feedback_form_placeholder_problem"
+                       otherprops="Text"
+                       translate="yes">Please include the following:\n\n - A clear description of your problem with as much detail as possible.\n\n - Your TomTom device model if related to the problem.</uicontrol>
+            <fn>Placeholder in a text form used to gather customer feedback</fn>
+         </screen>
+         <screen>
+            <uicontrol id="mad_feedback_form_placeholder_suggestion"
+                       otherprops="Text"
+                       translate="yes">My suggestion is…</uicontrol>
+            <fn>Placeholder in a text form used to gather customer feedback</fn>
+         </screen>
+         <screen>
+            <uicontrol id="mad_feedback_form_placeholder_question"
+                       otherprops="Text"
+                       translate="yes">My question is…</uicontrol>
+            <fn>Placeholder in a text form used to gather customer feedback</fn>
+         </screen>
+         <screen>
+            <uicontrol id="mad_feedback_form_send_button"
+                       otherprops="Button"
+                       translate="yes">Send</uicontrol>
+            <fn>Text on a button allowing the users to send feedback to TomTom</fn>
+         </screen>
+         <screen>
+            <uicontrol id="mad_feedback_done_title" otherprops="Title" translate="yes">Thank you for your feedback!</uicontrol>
+            <fn>Title of a screen informing that the feedback was sent</fn>
+         </screen>
+         <screen>
+            <uicontrol id="mad_feedback_done_primary_info"
+                       otherprops="Text"
+                       translate="yes">We will do our best to get back to you as soon as possible. A confirmation email has been sent to: $1#</uicontrol>
+            <fn>Primary information at a screen informing that the feedback was sent</fn>
+         </screen>
+         <screen>
+            <uicontrol id="mad_feedback_done_button" otherprops="Button" translate="yes">Done</uicontrol>
+            <fn>Title of a button completing feedback flow</fn>
+         </screen>
+         <screen>
+            <uicontrol id="mad_feedback_language_primary_info"
+                       otherprops="Text"
+                       translate="yes">Unfortunately customer support is not available in your language.\n\nWould you like to continue in English?</uicontrol>
+            <fn>Text informing the user that he has to continue in English to submit a Customer Care request.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="mad_feedback_catalan_language_primary_info"
+                       otherprops="Text"
+                       translate="yes">Unfortunately customer support is not available in Catalan.\n\nWould you like to continue in Spanish?</uicontrol>
+            <fn>(!! Translation is only needed for Catalan language !!) Text informing the user that he has to continue in Spanish to submit a Customer Care request.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="mad_feedback_language_continue_button"
+                       otherprops="Button"
+                       translate="yes">Continue</uicontrol>
+            <fn>Button letting the user to proceed with the feedback flow</fn>
+         </screen>
+         <screen>
+            <uicontrol id="mad_feedback_language_not_now_button"
+                       otherprops="Button"
+                       translate="yes">Not now</uicontrol>
+            <fn>Button letting the user to abort feedback flow</fn>
+         </screen>
+         <screen>
+            <uicontrol id="mad_feedback_share_text" otherprops="Text" translate="yes">Hey! Try out this really cool app to easily plan your daily drives with real-time traffic:</uicontrol>
+            <fn>Text appearing when the user shares the app via e.g. email, Facebook or Twitter</fn>
+         </screen>
+         <screen>
+            <uicontrol id="mad_feedback_form_subject_problem"
+                       otherprops="Title"
+                       translate="yes">I have a problem with MyDrive app (iOS)</uicontrol>
+            <fn>Title of a Customer Care incident</fn>
+         </screen>
+         <screen>
+            <uicontrol id="mad_feedback_form_subject_question"
+                       otherprops="Title"
+                       translate="yes">I have a question about MyDrive app (iOS)</uicontrol>
+            <fn>Title of a Customer Care incident</fn>
+         </screen>
+         <screen>
+            <uicontrol id="mad_feedback_form_subject_suggestion"
+                       otherprops="Title"
+                       translate="yes">I have a suggestion for MyDrive app (iOS)</uicontrol>
+            <fn>Title of a Customer Care incident</fn>
+         </screen>
+         <screen>
+            <uicontrol id="mad_feedback_error_message" otherprops="Text" translate="yes">Something went wrong and we couldn't send your message. Please try again.</uicontrol>
+            <fn>Error text shown in native error dialog when incident creation fails</fn>
+         </screen>
+         <screen>
+            <uicontrol id="mad_talk_to_us_problem_button"
+                       otherprops="Button"
+                       translate="yes">I have a problem</uicontrol>
+            <fn>Button letting the user to proceed to the problem feedback form</fn>
+         </screen>
+         <screen>
+            <uicontrol id="mad_talk_to_us_question_button"
+                       otherprops="Button"
+                       translate="yes">I have a question</uicontrol>
+            <fn>Button letting the user proceed to the question feedback form</fn>
+         </screen>
+         <screen>
+            <uicontrol id="mad_talk_to_us_suggestion_button"
+                       otherprops="Text"
+                       translate="yes">I have a suggestion</uicontrol>
+            <fn>Button letting the user proceed to the suggestion feedback form</fn>
+         </screen>
+         <screen>
+            <uicontrol id="mad_talk_to_us_rate_button" otherprops="Text" translate="yes">Rate the app</uicontrol>
+            <fn>Button letting the user rate the application</fn>
+         </screen>
+         <screen>
+            <uicontrol id="mad_talk_to_us_share_button" otherprops="Text" translate="yes">Share the app</uicontrol>
+            <fn>Button letting the user share the application</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_whats_new_next_button"
+                       otherprops="Button"
+                       translate="yes">Next</uicontrol>
+            <fn>Button for going to the next whats new screen</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_settings_route_planning_section"
+                       otherprops="Text"
+                       translate="yes">MAP &amp; PLANNING SETTINGS</uicontrol>
+            <fn>MAP and Planning section title on the settings screen</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_settings_show_alternative_routes"
+                       otherprops="Text"
+                       translate="yes">Show alternative routes</uicontrol>
+            <fn>Settings for showing/hiding alternative routes</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_settings_units" otherprops="Text" translate="yes">UNITS</uicontrol>
+            <fn>UNITS section title on the settings screen</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_button_miles_and_feet"
+                       otherprops="Button"
+                       translate="yes">Miles &amp; Feet</uicontrol>
+            <fn>Radiogroup buttons for selecting which distance unit the user wants to see in the app.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_button_miles_and_yards"
+                       otherprops="Button"
+                       translate="yes">Miles &amp; Yards</uicontrol>
+            <fn>Radiogroup buttons for selecting which distance unit the user wants to see in the app.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_button_kilometers"
+                       otherprops="Button"
+                       translate="yes">Kilometres</uicontrol>
+            <fn>Radiogroup buttons for selecting which distance unit the user wants to see in the app.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_road_trips_intro_description"
+                       otherprops="Text"
+                       translate="yes">Discover the world's best routes and personalise them easily</uicontrol>
+            <fn>The welcoming text on the Road Trips introduction page</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_road_trips_intro_ok_button"
+                       otherprops="Button"
+                       translate="yes">Ok, let's go</uicontrol>
+            <fn>The confirmation button title on the Road Trips introduction page.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_bt_pan_title" otherprops="Text" translate="yes">Connect your TomTom device using the personal hotspot</uicontrol>
+            <fn>Title of alternative connection screen</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_bt_pan_instruction_1" otherprops="Text" translate="yes">Update your TomTom device to the latest software version</uicontrol>
+            <fn>First instruction in alternative connection screen</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_bt_pan_instruction_2" otherprops="Text" translate="yes">Open your iOS Settings app</uicontrol>
+            <fn>Second instruction in alternative connection screen</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_bt_pan_instruction_3" otherprops="Button" translate="yes">Tap here to open Settings</uicontrol>
+            <fn>Third instruction in alternative connection screen</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_bt_pan_instruction_4" otherprops="Text" translate="yes">Tap 'Settings' in the top left to go to Settings</uicontrol>
+            <fn>Fourth instruction in alternative connection screen</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_bt_pan_instruction_5" otherprops="Text" translate="yes">Scroll to the top</uicontrol>
+            <fn>Fifth instruction in alternative connection screen</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_bt_pan_instruction_6" otherprops="Text" translate="yes">Tap 'Personal Hotspot'</uicontrol>
+            <fn>Sixth instruction in alternative connection screen</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_bt_pan_instruction_7" otherprops="Text" translate="yes">Switch on 'Allow Others to Join'</uicontrol>
+            <fn>Seventh instruction in alternative connection screen</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_device_status_connection_issues"
+                       otherprops="Button"
+                       translate="yes">Connection issues?</uicontrol>
+            <fn>Question whether the user is experiencing connection issues</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_connection_issues_primary" otherprops="Text" translate="yes">If you experience connection troubles along the way, you can always receive traffic data on your TomTom device by using your phone's personal hotspot.</uicontrol>
+            <fn>Explain alternative connection method to user</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_connection_issues_secondary"
+                       otherprops="Button"
+                       translate="yes">Learn more about using the personal hotspot</uicontrol>
+            <fn>Take user to the alternative connection method explanation screen</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_favorite_home" otherprops="Text" translate="yes">Home</uicontrol>
+            <fn>The user friendly name for users home location</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_favorite_work" otherprops="Text" translate="yes">Work</uicontrol>
+            <fn>The user friendly name for users work location</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_favorite_car" otherprops="Text" translate="yes">My Car</uicontrol>
+            <fn>The user friendly name for users work location</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_pairing_qr_camera_instructions"
+                       otherprops="Text"
+                       translate="yes">Point your phone's camera at your TomTom device. Once the QR code is in focus it will be scanned.</uicontrol>
+            <fn>Instructions to scan a QR code using the camera.</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_low_storage_error" otherprops="Text" translate="yes">Device storage is full. Please free up a small bit of storage and try again.</uicontrol>
+            <fn>Message to display when the user doesn't have enough space in the phone</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_camera_permission_error" otherprops="Text" translate="yes">Please go into the MyDrive app settings in your phone settings and enable Camera in your app permissions. Then try again.</uicontrol>
+            <fn>Message to display when the user didn't give camera usage permission</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_camera_unavailable_error" otherprops="Text" translate="yes">This feature requires a rear-facing camera.</uicontrol>
+            <fn>Message to display when the device doesn't have a camera facing back available</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_pairing_screen_title" otherprops="Title" translate="yes">CONNECT YOUR TOMTOM DEVICE</uicontrol>
+            <fn>Title of the screen where a user can connect his TomTom device</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_pairing_screen_skip" otherprops="Button" translate="yes">Skip</uicontrol>
+            <fn>Text on a button at the pairing screen to skip pairing process</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_pairing_screen_description"
+                       otherprops="Text"
+                       translate="yes">Connect your TomTom device and drive with world-class traffic information.</uicontrol>
+            <fn>Text at the pairing screen informing that the user can now connect MyDrive app to his TomTom device</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_pair_your_device_screen_header_title"
+                       otherprops="Title"
+                       translate="yes">CONNECT YOUR DEVICE</uicontrol>
+            <fn>Title in the header of the pair your device screen</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_connectstart_text" otherprops="Text" translate="yes">Get Traffic updates, hands-free calls and messages.</uicontrol>
+            <fn>Text of the screen at the start of the connect flow</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_connectstart_subtext" otherprops="Text" translate="yes">Available features may differ per TomTom device</uicontrol>
+            <fn>Text of the screen at the start of the connect flow</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_pairing_select_device_title"
+                       otherprops="Text"
+                       translate="yes">WHICH DEVICE WOULD YOU LIKE TO CONNECT?</uicontrol>
+            <fn>Title of the screen where a user can select the device to pair</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_pairing_select_device_identify_device"
+                       otherprops="Button"
+                       translate="yes">How to identify your device.</uicontrol>
+            <fn>Text on a button to identify the device an user has</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_pairing_select_device_not_in_the_list"
+                       otherprops="Text"
+                       translate="yes">Can't see your device?</uicontrol>
+            <fn>Text for the device list as last item</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_pairing_screen_scan_code"
+                       otherprops="Button"
+                       translate="yes">Scan Code</uicontrol>
+            <fn>Text on a button at the pairing screen start pairing process</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_pairing_screen_done" otherprops="Button" translate="yes">Done</uicontrol>
+            <fn>Text on a button at the end of pairing ending the flow</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_pairing_screen_connect" otherprops="Button" translate="yes">OK, Show Me How</uicontrol>
+            <fn>Text on a button at the pairing screen to start pairing process</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_pairing_screen_not_now" otherprops="Button" translate="yes">Not Now</uicontrol>
+            <fn>Text on a button at the pairing screen to skip pairing process</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_pairing_screen_no_thanks"
+                       otherprops="Button"
+                       translate="yes">No Thanks</uicontrol>
+            <fn>Text on a button at the pairing screen to skip pairing process</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_welcome_text1" otherprops="Text" translate="yes">See highly accurate traffic information, in real-time.</uicontrol>
+            <fn>Text on the brief tour in the welcome screen</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_welcome_text2" otherprops="Text" translate="yes">Get customized alerts for delays on your route.</uicontrol>
+            <fn>Text on the brief tour in the welcome screen</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_welcome_text3" otherprops="Text" translate="yes">The ideal companion for you.</uicontrol>
+            <fn>Text on the brief tour in the welcome screen</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_welcome_text4" otherprops="Text" translate="yes">Set up hands-free calling and notifications on your TomTom device.</uicontrol>
+            <fn>Text on the brief tour in the welcome screen</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_welcome_text5" otherprops="Text" translate="yes">Set your destination &amp; sync it with your TomTom device.</uicontrol>
+            <fn>Text on the brief tour in the welcome screen</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_settings_contact_order_section_title"
+                       otherprops="Text"
+                       translate="yes">SORT ORDER FOR CONTACTS</uicontrol>
+            <fn>title of the contact order section in the settings screen</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_settings_contact_order_by_name"
+                       otherprops="Text"
+                       translate="yes">Organise by first name</uicontrol>
+            <fn>radio button for setting to order contacts by first name in the settings screen</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_settings_contact_order_by_last_name"
+                       otherprops="Text"
+                       translate="yes">Organise by surname</uicontrol>
+            <fn>radio button for setting to order contacts by last name in the settings screen</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_settings_notification_section_title"
+                       otherprops="Text"
+                       translate="yes">NOTIFICATIONS</uicontrol>
+            <fn>title of the notification section in the settings screen</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_settings_notification_are_disabled"
+                       otherprops="Text"
+                       translate="yes">Switch on notifications</uicontrol>
+            <fn>Text on the notification section when notifications are not enabled</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_settings_notification_are_enabled"
+                       otherprops="Text"
+                       translate="yes">Select apps</uicontrol>
+            <fn>Text on the notification section when notifications are enabled</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_settings_notification_toast"
+                       otherprops="Text"
+                       translate="yes">Switch on notifications for TomTom MyDrive.</uicontrol>
+            <fn>Text on the toast to enable the notifications</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_settings_map_and_planning_section_title"
+                       otherprops="Text"
+                       translate="yes">MAP &amp; PLANNING SETTINGS</uicontrol>
+            <fn>title of the map and planning section in the settings screen</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_settings_show_alternatives_title"
+                       otherprops="Text"
+                       translate="yes">Show alternative routes</uicontrol>
+            <fn>title of the option to show alternative routes in the settings screen</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_connect_no_pairing_text" otherprops="Text" translate="yes">Your device does not need the MyDrive app to get Traffic updates.\n\nOn your device, open the main menu then tap TomTom Services. Follow the instructions to get Traffic updates.</uicontrol>
+            <fn>Text of the screen where a user is told his device does not need pairing</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_connect_helpidentify" otherprops="Title" translate="yes">HOW TO IDENTIFY YOUR DEVICE</uicontrol>
+            <fn>Title of the screen where a user is told how to identify his device type</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_connect_helpidentify_step1"
+                       otherprops="Text"
+                       translate="yes">Open the main menu on your TomTom device.</uicontrol>
+            <fn>Text of a step to identify a users device type</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_connect_helpidentify_step2"
+                       otherprops="Text"
+                       translate="yes">Tap Help.</uicontrol>
+            <fn>Text of a step to identify a users device type</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_connect_helpidentify_step3"
+                       otherprops="Text"
+                       translate="yes">Tap About.</uicontrol>
+            <fn>Text of a step to identify a users device type</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_connect_helpidentify_step4"
+                       otherprops="Text"
+                       translate="yes">The model of your device is shown at the top of the screen.</uicontrol>
+            <fn>Text of a step to identify a users device type</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_connect_manualspp_title" otherprops="Title" translate="yes">USE THE INSTRUCTIONS ON YOUR TOMTOM DEVICE</uicontrol>
+            <fn>Title of the screen where a user is told how to pair his device (NAV4)</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_connect_manualspp_step1" otherprops="Text" translate="yes">On your TomTom device, open the main menu.</uicontrol>
+            <fn>Text of a step to pair a device</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_connect_manualspp_step2" otherprops="Text" translate="yes">Tap TomTom Services.</uicontrol>
+            <fn>Text of a step to pair a device</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_connect_manualspp_step3" otherprops="Text" translate="yes">Follow the instructions on your device to set up a connection with your phone.</uicontrol>
+            <fn>Text of a step to pair a device</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_connect_country_select" otherprops="Text" translate="yes">Did you buy your device in the United States of America, Canada or Brazil?</uicontrol>
+            <fn>Text asking the user if they bought the device in the USA, Canada or Brazil</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_connect_promote_pnd_title"
+                       otherprops="Title"
+                       translate="yes">WELCOME TO PRIORITY DRIVING</uicontrol>
+            <fn>Title of the screen where we get people to buy a PND</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_connect_promote_pnd_text" otherprops="Text" translate="yes">Our smartest sat navs come with hands-free calling, smartphone messages and easy Wi-Fi updating. All Lifetime TomTom Services are included - world maps, free map updates, real-time TomTom Traffic and speed camera alerts.</uicontrol>
+            <fn>Text on the screen where we get people to buy a PND</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_connect_promote_pnd_link" otherprops="Text" translate="yes">For more information, go to tomtom.com/drive</uicontrol>
+            <fn>Link on the screen where we get people to buy a PND</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_pairingready_screen_title"
+                       otherprops="Title"
+                       translate="yes">GET READY TO CONNECT</uicontrol>
+            <fn>Title of the screen where a user is about to scan a QR code</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_connectwait_screen_title" otherprops="Title" translate="yes">ONE MOMENT PLEASE…</uicontrol>
+            <fn>Title of the screen in the connect flow where a user has to wait</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_connectwait_screen_text" otherprops="Text" translate="yes">Accept the pairing request on your TomTom device.</uicontrol>
+            <fn>Text of the screen in the connect flow where a user has to wait</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_pairing_failed_title" otherprops="Title" translate="yes">Pairing failed</uicontrol>
+            <fn>Title of the error dialog when pairing failed</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_pairing_failed_message" otherprops="Text" translate="yes">Make sure your TomTom device is in range and switched on.</uicontrol>
+            <fn>Message of the error dialog when pairing failed</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_pairing_instruction_qr_step1"
+                       otherprops="Text"
+                       translate="yes">On your TomTom device, open the main menu. Tap Settings, then tap Bluetooth.</uicontrol>
+            <fn>Step of the instructions how to pair using QR code</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_pairing_instruction_qr_step2"
+                       otherprops="Text"
+                       translate="yes">Tap Add Phone.</uicontrol>
+            <fn>Step of the instructions how to pair using QR code</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_pairing_instruction_qr_step3"
+                       otherprops="Text"
+                       translate="yes">Your TomTom device shows a QR code that you now need to scan.</uicontrol>
+            <fn>Step of the instructions how to pair using QR code</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_pairing_instruction_need_help"
+                       otherprops="Text"
+                       translate="yes">Need help?</uicontrol>
+            <fn>Link for more help on the instructions how to pair using QR code</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_pairing_instruction_help_text"
+                       otherprops="Text"
+                       translate="yes">See step-by-step instructions, check phone compatibility and more at tomtom.com/getstarted</uicontrol>
+            <fn>Extra help text to learn how to connect a device</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_pairing_instruction_getready_step1"
+                       otherprops="Text"
+                       translate="yes">Switch on your TomTom device.</uicontrol>
+            <fn>Step of the instructions how to pair using QR code</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_pairing_instruction_getready_step2"
+                       otherprops="Text"
+                       translate="yes">Open the main menu.</uicontrol>
+            <fn>Step of the instructions how to pair using QR code</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_pairing_instruction_getready_step3"
+                       otherprops="Text"
+                       translate="yes">Tap Settings.</uicontrol>
+            <fn>Step of the instructions how to pair using QR code</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_pairing_instruction_getready_step4"
+                       otherprops="Text"
+                       translate="yes">Tap Bluetooth.</uicontrol>
+            <fn>Step of the instructions how to pair using QR code</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_pairing_instruction_getready_step5"
+                       otherprops="Text"
+                       translate="yes">Tap Add Phone.</uicontrol>
+            <fn>Step of the instructions how to pair using QR code</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_pairing_instruction_getready_step6"
+                       otherprops="Text"
+                       translate="yes">Your TomTom device shows a QR code that you now need to scan.</uicontrol>
+            <fn>Step of the instructions how to pair using QR code</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_pairing_instruction_help_text1"
+                       otherprops="Text"
+                       translate="yes">TomTom device does not have Bluetooth in the Settings menu.</uicontrol>
+            <fn>Extra help text to learn how to connect a device that does not have bluetooth</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_pairing_instruction_help" otherprops="Text" translate="yes">Here's all you need to know about connecting your phone to your TomTom device:</uicontrol>
+            <fn>Extra help text to learn how to connect a device</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_pairing_instruction_help_video_link_text"
+                       otherprops="Text"
+                       translate="yes">Watch the video</uicontrol>
+            <fn>Text used within the video link</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_pairing_instruction_help_faq_link_text"
+                       otherprops="Text"
+                       translate="yes">Read the FAQ</uicontrol>
+            <fn>Text used within the FAQ link</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_enable_notifications_title"
+                       otherprops="Title"
+                       translate="yes">ENABLE SMARTPHONE MESSAGES</uicontrol>
+            <fn>Title of the screen explaining how to enable notifications</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_enable_notifications_step1"
+                       otherprops="Text"
+                       translate="yes">To display calls, messages and other app alerts on your device, go to the Notification settings on your phone.</uicontrol>
+            <fn>Step of the instructions how to enable notifications</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_enable_notifications_step2"
+                       otherprops="Text"
+                       translate="yes">Allow notifications for TomTom MyDrive, then return to the app.</uicontrol>
+            <fn>Step of the instructions how to enable notifications</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_enable_notifications_notification_settings"
+                       otherprops="Button"
+                       translate="yes">Notification Settings</uicontrol>
+            <fn>Text of the button to enable notifications</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_notifications_instructions_toast"
+                       otherprops="Text"
+                       translate="yes">Please enable the TomTom MyDrive checkbox or toggle</uicontrol>
+            <fn>Text of a toast message explaining what to do on the system settings</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_notifications_error_title"
+                       otherprops="Title"
+                       translate="yes">Failed to go to settings</uicontrol>
+            <fn>Title of a dialog explaining that the settings should be done manually</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_notifications_error_text" otherprops="Text" translate="yes">Failed to show the notification settings, please enable the TomTom MyDrive service in the notification settings.</uicontrol>
+            <fn>Text of a dialog explaining that the settings should be done manually</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_connect_end_title" otherprops="Title" translate="yes">YOUR DEVICE IS CONNECTED</uicontrol>
+            <fn>Title of the screen at the end of the connect flow</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_connect_end_text" otherprops="Text" translate="yes">Remember to open the MyDrive app and switch on Bluetooth whenever you want your devices to connect.</uicontrol>
+            <fn>Text of the screen at the end of the connect flow</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_connect_qr_error_title" otherprops="Title" translate="yes">THAT CODE DOESN'T LOOK RIGHT.</uicontrol>
+            <fn>Title of the screen when there is an error in the scanned QR code</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_connect_qr_error_text" otherprops="Text" translate="yes">Please try again</uicontrol>
+            <fn>Text of the screen when there is an error in the scanned QR code</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_pair_a_different_device" otherprops="Title" translate="yes">Connect a different device</uicontrol>
+            <fn>Text of the buttons that allows the user to pair a new device</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_status_looking_for_device" otherprops="Text" translate="yes">Looking for device…</uicontrol>
+            <fn>Text used when bluetooth is on, but no device connected</fn>
+         </screen>
+         <screen>
+            <uicontrol id="connect_flow_existing_device_message"
+                       otherprops="Text"
+                       translate="yes">We have found a paired device, $1#, do you want to connect to it?</uicontrol>
+            <fn>Explanation text in a popup when we detect a paired bluetooth device</fn>
+         </screen>
+         <screen>
+            <uicontrol id="connect_flow_existing_device_action_connect"
+                       otherprops="Text"
+                       translate="yes">Connect</uicontrol>
+            <fn>action on a popup when we have found a paired device</fn>
+         </screen>
+         <screen>
+            <uicontrol id="connect_flow_permission_required_title"
+                       otherprops="Text"
+                       translate="yes">Your permission is required</uicontrol>
+            <fn>Title of permission request screen</fn>
+         </screen>
+         <screen>
+            <uicontrol id="connect_flow_permission_required_message"
+                       otherprops="Text"
+                       translate="yes">The application needs your permission to display calls and messages on your TomTom device.\n\nPlease tap the button below to show the permission popups.</uicontrol>
+            <fn>Explanation text, why we need the permission of the user</fn>
+         </screen>
+         <screen>
+            <uicontrol id="connect_flow_existing_device_title"
+                       otherprops="Text"
+                       translate="yes">Found device</uicontrol>
+            <fn>Text used as title in a popup when we detect a paired bluetooth device</fn>
+         </screen>
+         <screen>
+            <uicontrol id="connect_flow_give_permission_action"
+                       otherprops="Text"
+                       translate="yes">Give permission</uicontrol>
+            <fn>text used in action button to grant permissions</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_notifications_settings_title"
+                       otherprops="Title"
+                       translate="yes">NOTIFICATIONS</uicontrol>
+            <fn>Title of the settings section</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_notifications_settings_supported_apps_title"
+                       otherprops="Title"
+                       translate="yes">FULLY SUPPORTED APPS</uicontrol>
+            <fn>Title for the section of supported apps</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_notifications_settings_supported_apps_description"
+                       otherprops="Title"
+                       translate="yes">Your TomTom device is optimised to display notifications from these apps</uicontrol>
+            <fn>Description of the apps which are fully supported to be displayed o the TomTom device</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_notifications_settings_sms_app_title"
+                       otherprops="Text"
+                       translate="yes">SMS</uicontrol>
+            <fn>Name of the service for short text messages</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_notifications_settings_other_apps_title"
+                       otherprops="Title"
+                       translate="yes">OTHER APPS</uicontrol>
+            <fn>Title for the section of apps not fully supported</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_notifications_settings_other_apps_description"
+                       otherprops="Title"
+                       translate="yes">Notifications from these apps may display slightly differently on your TomTom device</uicontrol>
+            <fn>Description for the apps which are NOT 100% supported by the TomTom device. They might not display correctly on it</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_status_title" otherprops="Text" translate="yes">STATUS</uicontrol>
+            <fn>Main menu item: Status</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_status_bluetooth_off_message"
+                       otherprops="Text"
+                       translate="yes">Switch on Bluetooth</uicontrol>
+            <fn>Text used when bluetooth is off</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_status_no_connection_message"
+                       otherprops="Text"
+                       translate="yes">Device is not in range</uicontrol>
+            <fn>Text used when device could not be reached</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_status_connected_features"
+                       otherprops="Title"
+                       translate="yes">CONNECTED FEATURES</uicontrol>
+            <fn>Text used as the title of a list of features</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_status_connected_traffic_feature"
+                       otherprops="Text"
+                       translate="yes">TomTom Traffic</uicontrol>
+            <fn>Label for the traffic service</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_status_connected_cameras_feature"
+                       otherprops="Text"
+                       translate="yes">Speed Camera updates</uicontrol>
+            <fn>Label for the speed cam service</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_status_connected_services_features_loading"
+                       otherprops="Text"
+                       translate="yes">Loading information</uicontrol>
+            <fn>Temporary subtext to show while the system loads information from the server for the features that depend on it</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_status_connected_services_features_unavailable"
+                       otherprops="Text"
+                       translate="yes">Expiry date unavailable.</uicontrol>
+            <fn>Warning message when the TT server cannot be reached</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_status_connected_services_features_valid_until"
+                       otherprops="Text"
+                       translate="yes">Valid until $1#</uicontrol>
+            <fn>Subtext for services with an expiration date</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_status_connected_services_features_expired"
+                       otherprops="Text"
+                       translate="yes">Expired</uicontrol>
+            <fn>Subtext for services for which the subscription is expired</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_status_connected_mydrive_feature"
+                       otherprops="Text"
+                       translate="yes">MyDrive</uicontrol>
+            <fn>Label for the MyDrive service</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_status_connected_notifications_feature"
+                       otherprops="Text"
+                       translate="yes">Smartphone messages</uicontrol>
+            <fn>Label for the notifications feature</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_status_connected_notifications_feature_enabled"
+                       otherprops="Text"
+                       translate="yes">Select apps</uicontrol>
+            <fn>To convey that the user can select which apps are allowed to send notifications to the PND</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_status_connected_notifications_feature_no_apps_selected"
+                       otherprops="Text"
+                       translate="yes">No apps selected</uicontrol>
+            <fn>No apps have been allowed to send notifications to the PND</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_status_connected_notifications_feature_disabled"
+                       otherprops="Text"
+                       translate="yes">Disabled</uicontrol>
+            <fn>Subtext used to convey that a feature is not active</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_status_connected_notifications_feature_permissions_required"
+                       otherprops="Text"
+                       translate="yes">Permissions required</uicontrol>
+            <fn>Permissions to read/send SMS have not been granted or have been revoked, so the Smartphone notifications feature is disabled with this subtext</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_status_connected_feature_unsupported_on_pnd"
+                       otherprops="Text"
+                       translate="yes">Not supported by your device</uicontrol>
+            <fn>Not all features are supported by your device</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_status_connected_notifications_feature_unsupported_on_phone"
+                       otherprops="Text"
+                       translate="yes">Requires Android 5.0 or higher</uicontrol>
+            <fn>The phone needs at least Android 4.3 to support Smartphone Notifications feature</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_status_connected_hands_free_calling_feature"
+                       otherprops="Text"
+                       translate="yes">Hands-free calling</uicontrol>
+            <fn>Label for the hands-free calling feature</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_status_connected_feature_configure_on_pnd"
+                       otherprops="Text"
+                       translate="yes">Configure on your TomTom device</uicontrol>
+            <fn>Some features are not configured directly in the app, so the users must do it on the PND</fn>
+         </screen>
+         <screen>
+            <uicontrol id="sync_navcloud_reminder_for_routes"
+                       otherprops="Text"
+                       translate="yes">The waypoints for this route will be sent to your device. To see them, log in on your device with your TomTom account: </uicontrol>
+            <fn>Text used in dialog that reminds the user to login on the device when sending a route</fn>
+         </screen>
+         <screen>
+            <uicontrol id="sync_navcloud_reminder" otherprops="Text" translate="yes">To sync this destination with your TomTom device, log in on your device using this TomTom Account:</uicontrol>
+            <fn>Text used in dialog that reminds the user to login on the device</fn>
+         </screen>
+         <screen>
+            <uicontrol id="sync_navcloud_reminder_link" otherprops="Text" translate="yes">Not working?</uicontrol>
+            <fn>Text used in dialog that links to a TomTom FAQ</fn>
+         </screen>
+         <screen>
+            <uicontrol id="sync_navcloud_reminder_checkbox"
+                       otherprops="Text"
+                       translate="yes">I got it</uicontrol>
+            <fn>Text used for checkbox that allows turning off the reminder</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_common_yes" otherprops="Text" translate="yes">Yes</uicontrol>
+            <fn>Common text: Yes</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_common_no" otherprops="Text" translate="yes">No</uicontrol>
+            <fn>Common text: No</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_common_cancel" otherprops="Text" translate="yes">Cancel</uicontrol>
+            <fn>Common text: Cancel</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_common_ok" otherprops="Text" translate="yes">Ok</uicontrol>
+            <fn>Common text: Ok</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_common_settings" otherprops="Text" translate="yes">Settings</uicontrol>
+            <fn>Common text: Settings</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_common_create_account"
+                       otherprops="Text"
+                       translate="yes">Create Account</uicontrol>
+            <fn>Common text: Create Account</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_common_country" otherprops="Text" translate="yes">Country</uicontrol>
+            <fn>Common text: Country</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_common_state" otherprops="Text" translate="yes">State</uicontrol>
+            <fn>Common text: State</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_common_general" otherprops="Text" translate="yes">General</uicontrol>
+            <fn>Common text: General</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_common_mydrive" otherprops="Text" translate="yes">MyDrive</uicontrol>
+            <fn>Common text: MyDrive</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_common_plan_route" otherprops="Text" translate="yes">Plan Route</uicontrol>
+            <fn>Common text: Plan Route</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_common_send_to_device"
+                       otherprops="Text"
+                       translate="yes">Send to device</uicontrol>
+            <fn>Common text: Send to device</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_common_save" otherprops="Text" translate="yes">Save</uicontrol>
+            <fn>Common text: Save</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_common_next" otherprops="Text" translate="yes">Next</uicontrol>
+            <fn>Common text: Next</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_common_done" otherprops="Text" translate="yes">Done</uicontrol>
+            <fn>Common text: Done</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_common_traffic" otherprops="Text" translate="yes">TomTom Traffic</uicontrol>
+            <fn>Common text: TomTom Traffic</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_common_not_working" otherprops="Text" translate="yes">Not Working?</uicontrol>
+            <fn>Common text: Not Working?</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_last_mile_walk_here"
+                       otherprops="Text"
+                       translate="yes">Walk Here</uicontrol>
+            <fn/>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_last_mile_walk_here_user_location_unknown_car"
+                       otherprops="Text"
+                       translate="yes">There is no walking route to your car possible. Please enable location sharing on your mobile phone or tablet.</uicontrol>
+            <fn>Error message when location unavailable</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_last_mile_walk_here_too_close_car"
+                       otherprops="Text"
+                       translate="yes">Your car is too close for a walking route.</uicontrol>
+            <fn>Error message when car is too close</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_last_mile_walk_here_car_too_far_car"
+                       otherprops="Text"
+                       translate="yes">Your car is too far away for a walking route.</uicontrol>
+            <fn>Error message when car is too far</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_last_mile_walk_here_no_walking_route_available_car"
+                       otherprops="Text"
+                       translate="yes">There is no walking route available from your current location to your car.</uicontrol>
+            <fn>Default error message for last mile</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_last_mile_walk_here_user_location_unknown_active_destination"
+                       otherprops="Text"
+                       translate="yes">There is no walking route to your active destination possible. Please enable location sharing on your mobile phone or tablet.</uicontrol>
+            <fn>Error message when location unavailable</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_last_mile_walk_here_too_close_active_destination"
+                       otherprops="Text"
+                       translate="yes">Your active destination is too close for a walking route.</uicontrol>
+            <fn>Error message when car is too close</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_last_mile_walk_here_too_far_active_destination"
+                       otherprops="Text"
+                       translate="yes">Your active destination is too far away for a walking route.</uicontrol>
+            <fn>Error message when car is too far</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_last_mile_walk_here_no_walking_route_available_active_destination"
+                       otherprops="Text"
+                       translate="yes">There is no walking route available from your current location to your active destination.</uicontrol>
+            <fn>Default error message for last mile</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_last_mile_popup_active_destination"
+                       otherprops="Text"
+                       translate="yes">It seems you have parked your car. Would you like to continue your route on foot?</uicontrol>
+            <fn>Last mile feature's navigation prompt popup's text</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_last_mile_arrival_time_text"
+                       otherprops="Text"
+                       translate="yes">Arrive at</uicontrol>
+            <fn>Pedestrian Navigation bottom panel partial text for displaying ETA</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_last_mile_arrival_walking_text"
+                       otherprops="Text"
+                       translate="yes">walking</uicontrol>
+            <fn>Pedestrian Navigation bottom panel partial text for displaying ETA</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_store_bluetooth_improvements_release_changelog"
+                       otherprops="Text"
+                       translate="yes">We have implemented a workaround for users with unstable Bluetooth connectivity which will enable them to use live services again (TomTom Traffic and Speed Camera Alerts) and to sync content from the MyDrive app.</uicontrol>
+            <fn>App Store changelog</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_store_belmonte_release_changelog"
+                       otherprops="Text"
+                       translate="yes">Updated model support</uicontrol>
+            <fn>App Store changelog</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_mad_whats_new_18_6_last_mile"
+                       otherprops="Text"
+                       translate="yes">Last Mile Navigation: This is trusted guidance, in-car and then on foot, right to your destination's front door. TomTom GO and TomTom MyDrive are with you, literally, every step of the journey.</uicontrol>
+            <fn>Store what's new Last Mile feature message</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_mad_whats_new_18_6_find_my_car"
+                       otherprops="Text"
+                       translate="yes">Find My Car: On your way back? Instead of weighing on your mind, your car's location is saved on your mobile via TomTom GO and TomTom MyDrive.</uicontrol>
+            <fn>Store what's new Find My Car feature message</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_mad_whats_new_19_1_avoid_android"
+                       otherprops="Text"
+                       translate="yes">Based on customer feedback, introducing the option to "Avoid Motorways" for fastest routes and the ability to change the unit settings (km, miles).</uicontrol>
+            <fn>PlayStore what's new Avoid + Settings feature message</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_mad_whats_new_19_1_avoid_ios"
+                       otherprops="Text"
+                       translate="yes">Based on customer feedback, introducing the option to "Avoid Motorways" for fastest routes.</uicontrol>
+            <fn>AppStore what's new Avoid feature message</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_mad_whats_new_19_3_1_new_traffic_visualisation"
+                       otherprops="Text"
+                       translate="yes">New traffic visualisation.</uicontrol>
+            <fn>PlayStore what's new feature message</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_mad_whats_new_19_3_1_change_name_of_favorite"
+                       otherprops="Text"
+                       translate="yes">Change name of favourites stored in My Places.</uicontrol>
+            <fn>PlayStore what's new feature message</fn>
+         </screen>
+         <screen>
+            <uicontrol id="tt_mobile_mad_whats_new_19_3_1_bugfixes"
+                       otherprops="Text"
+                       translate="yes">Bugfixes.</uicontrol>
+            <fn>PlayStore what's new feature message</fn>
+         </screen>
+      </body>
+   </topic>
+</dita>

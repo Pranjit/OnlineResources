@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<map xml:lang="nl-NL">
+  <contentId translate="no">http://id.tomtom.com/map/europe/nav4</contentId>
+  <version translate="no">1095</version>
+  <locale translate="no">en_gb</locale>
+  <sku translate="no">1SAA.080.60.10.95</sku>
+  <type translate="no">Map</type>
+  <islive translate="no">false</islive>
+  <title id="title_1095" translate="yes">Europa</title>
+  <iqrEnabled translate="no">true</iqrEnabled>
+  <sub_title id="subtitle_1095" translate="yes">Gedetailleerde kaart met een naadloze dekking van 45 Europese landen</sub_title>
+  <salesText id="salesText_1095" translate="yes">Vanaf half maart wordt de maximumsnelheid op snelwegen in Nederland verlaagd naar 100 km/u tussen 06:00 en 19:00 uur. De kaartupdate met nieuwe maximumsnelheden is nu beschikbaar. Werk je apparaat bij om je voor te bereiden op je reis.</salesText>
+  <iq_routes id="iq_routes_1095" translate="yes">Speed Profiles van IQ Routes™ berekenen de snelste routes voor ieder moment van de dag</iq_routes>
+</map>
