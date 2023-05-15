@@ -1,0 +1,216 @@
+Dec 20, 2021 5:43:56 AM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Dec 20, 2021 5:43:56 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+Dec 20, 2021 5:43:56 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Dec 20, 2021 5:43:56 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Dec 20, 2021 5:43:56 AM org.apache.catalina.core.StandardWrapper unload
+INFO: Waiting for 1 instance(s) to be deallocated for Servlet [AxisServlet]
+Dec 20, 2021 5:43:57 AM org.apache.catalina.core.StandardWrapper unload
+INFO: Waiting for 1 instance(s) to be deallocated for Servlet [AxisServlet]
+Dec 20, 2021 5:43:57 AM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+SEVERE: The web application [/ws] registered the JDBC driver [com.idiominc.jdbc.sqlserver.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Dec 20, 2021 5:43:57 AM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/ws] appears to have started a thread named [Thread-2] but has failed to stop it. This is very likely to create a memory leak.
+Dec 20, 2021 5:43:57 AM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/ws] appears to have started a thread named [Workflow Engine Watchdog] but has failed to stop it. This is very likely to create a memory leak.
+Dec 20, 2021 5:43:57 AM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/ws] appears to have started a thread named [Thread-4] but has failed to stop it. This is very likely to create a memory leak.
+Dec 20, 2021 5:43:57 AM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/ws] appears to have started a thread named [WFE daemon 1 (5ec05878) on host "host-10-66-112-9.net-10-66-0-0.tt3.com"] but has failed to stop it. This is very likely to create a memory leak.
+Dec 20, 2021 5:43:57 AM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/ws] appears to have started a thread named [WFE daemon 2 (388d573d) on host "host-10-66-112-9.net-10-66-0-0.tt3.com"] but has failed to stop it. This is very likely to create a memory leak.
+Dec 20, 2021 5:43:57 AM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/ws] appears to have started a thread named [WFE daemon 3 (4242db6b) on host "host-10-66-112-9.net-10-66-0-0.tt3.com"] but has failed to stop it. This is very likely to create a memory leak.
+Dec 20, 2021 5:43:57 AM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/ws] appears to have started a thread named [WFE daemon 4 (4c07d1) on host "host-10-66-112-9.net-10-66-0-0.tt3.com"] but has failed to stop it. This is very likely to create a memory leak.
+Dec 20, 2021 5:43:57 AM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/ws] appears to have started a thread named [BGE daemon 1 (2c995fed) on host "host-10-66-112-9.net-10-66-0-0.tt3.com"] but has failed to stop it. This is very likely to create a memory leak.
+Dec 20, 2021 5:43:57 AM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/ws] appears to have started a thread named [BGE daemon 2 (421ad110) on host "host-10-66-112-9.net-10-66-0-0.tt3.com"] but has failed to stop it. This is very likely to create a memory leak.
+Dec 20, 2021 5:43:57 AM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/ws] appears to have started a thread named [BGE daemon 3 (28d4b38f) on host "host-10-66-112-9.net-10-66-0-0.tt3.com"] but has failed to stop it. This is very likely to create a memory leak.
+Dec 20, 2021 5:43:57 AM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/ws] appears to have started a thread named [BGE daemon 4 (1f03661e) on host "host-10-66-112-9.net-10-66-0-0.tt3.com"] but has failed to stop it. This is very likely to create a memory leak.
+Dec 20, 2021 5:43:57 AM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/ws] appears to have started a thread named [Notification Engine Daemon  (50ebccb6)] but has failed to stop it. This is very likely to create a memory leak.
+Dec 20, 2021 5:43:57 AM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/ws] appears to have started a thread named [Recurrence Engine] but has failed to stop it. This is very likely to create a memory leak.
+Dec 20, 2021 5:43:57 AM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/ws] appears to have started a thread named [Thread-15] but has failed to stop it. This is very likely to create a memory leak.
+Dec 20, 2021 5:43:57 AM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/ws] appears to have started a thread named [pool-2-thread-1] but has failed to stop it. This is very likely to create a memory leak.
+Dec 20, 2021 5:43:57 AM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/ws] appears to have started a thread named [http-bio-8080-exec-143] but has failed to stop it. This is very likely to create a memory leak.
+Dec 20, 2021 5:43:57 AM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/ws] created a ThreadLocal with key of type [java.lang.InheritableThreadLocal] (value [java.lang.InheritableThreadLocal@565a901f]) and a value of type [com.idiominc.wssdk.scoping.WSScopingMode] (value [WORLDSERVER9X]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Dec 20, 2021 5:43:57 AM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/ws] created a ThreadLocal with key of type [java.lang.InheritableThreadLocal] (value [java.lang.InheritableThreadLocal@565a901f]) and a value of type [com.idiominc.wssdk.scoping.WSScopingMode] (value [WORLDSERVER9X]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Dec 20, 2021 5:43:57 AM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/ws] created a ThreadLocal with key of type [java.lang.InheritableThreadLocal] (value [java.lang.InheritableThreadLocal@565a901f]) and a value of type [com.idiominc.wssdk.scoping.WSScopingMode] (value [WORLDSERVER9X]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Dec 20, 2021 5:43:57 AM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/ws] created a ThreadLocal with key of type [java.lang.InheritableThreadLocal] (value [java.lang.InheritableThreadLocal@565a901f]) and a value of type [com.idiominc.wssdk.scoping.WSScopingMode] (value [WORLDSERVER9X]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Dec 20, 2021 5:43:57 AM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/ws] created a ThreadLocal with key of type [org.apache.axis.utils.XMLUtils.ThreadLocalDocumentBuilder] (value [org.apache.axis.utils.XMLUtils$ThreadLocalDocumentBuilder@2705cad1]) and a value of type [org.apache.xerces.jaxp.DocumentBuilderImpl] (value [org.apache.xerces.jaxp.DocumentBuilderImpl@6d46735a]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Dec 20, 2021 5:43:57 AM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/ws] created a ThreadLocal with key of type [java.lang.InheritableThreadLocal] (value [java.lang.InheritableThreadLocal@565a901f]) and a value of type [com.idiominc.wssdk.scoping.WSScopingMode] (value [WORLDSERVER9X]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Dec 20, 2021 5:43:57 AM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/ws] created a ThreadLocal with key of type [org.apache.axis.utils.XMLUtils.ThreadLocalDocumentBuilder] (value [org.apache.axis.utils.XMLUtils$ThreadLocalDocumentBuilder@2705cad1]) and a value of type [org.apache.xerces.jaxp.DocumentBuilderImpl] (value [org.apache.xerces.jaxp.DocumentBuilderImpl@2c3f51c2]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Dec 20, 2021 5:43:57 AM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/ws] created a ThreadLocal with key of type [com.idiominc.ws.storage.TdTermStorage$16] (value [com.idiominc.ws.storage.TdTermStorage$16@5fb7a10a]) and a value of type [java.util.ArrayList] (value [[com.idiominc.ws.storage.TdTermStorage$HashCache@10adc89e]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Dec 20, 2021 5:43:57 AM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/ws] created a ThreadLocal with key of type [org.apache.axis.utils.XMLUtils.ThreadLocalDocumentBuilder] (value [org.apache.axis.utils.XMLUtils$ThreadLocalDocumentBuilder@2705cad1]) and a value of type [org.apache.xerces.jaxp.DocumentBuilderImpl] (value [org.apache.xerces.jaxp.DocumentBuilderImpl@14e05a0]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Dec 20, 2021 5:43:57 AM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/ws] created a ThreadLocal with key of type [java.lang.InheritableThreadLocal] (value [java.lang.InheritableThreadLocal@565a901f]) and a value of type [com.idiominc.wssdk.scoping.WSScopingMode] (value [WORLDSERVER9X]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Dec 20, 2021 5:43:57 AM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/ws] created a ThreadLocal with key of type [org.apache.axis.utils.XMLUtils.ThreadLocalDocumentBuilder] (value [org.apache.axis.utils.XMLUtils$ThreadLocalDocumentBuilder@2705cad1]) and a value of type [org.apache.xerces.jaxp.DocumentBuilderImpl] (value [org.apache.xerces.jaxp.DocumentBuilderImpl@29534c0b]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Dec 20, 2021 5:43:57 AM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/ws] created a ThreadLocal with key of type [com.idiominc.ws.storage.TdTermStorage$16] (value [com.idiominc.ws.storage.TdTermStorage$16@5fb7a10a]) and a value of type [java.util.ArrayList] (value [[com.idiominc.ws.storage.TdTermStorage$HashCache@1ba57b5f]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Dec 20, 2021 5:43:57 AM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/ws] created a ThreadLocal with key of type [org.apache.axis.utils.XMLUtils.ThreadLocalDocumentBuilder] (value [org.apache.axis.utils.XMLUtils$ThreadLocalDocumentBuilder@2705cad1]) and a value of type [org.apache.xerces.jaxp.DocumentBuilderImpl] (value [org.apache.xerces.jaxp.DocumentBuilderImpl@d46a827]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Dec 20, 2021 5:43:57 AM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/ws] created a ThreadLocal with key of type [java.lang.InheritableThreadLocal] (value [java.lang.InheritableThreadLocal@565a901f]) and a value of type [com.idiominc.wssdk.scoping.WSScopingMode] (value [WORLDSERVER9X]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Dec 20, 2021 5:43:57 AM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/ws] created a ThreadLocal with key of type [org.apache.axis.utils.XMLUtils.ThreadLocalDocumentBuilder] (value [org.apache.axis.utils.XMLUtils$ThreadLocalDocumentBuilder@2705cad1]) and a value of type [org.apache.xerces.jaxp.DocumentBuilderImpl] (value [org.apache.xerces.jaxp.DocumentBuilderImpl@19c99f40]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Dec 20, 2021 5:43:57 AM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/ws] created a ThreadLocal with key of type [org.apache.axis.utils.XMLUtils.ThreadLocalDocumentBuilder] (value [org.apache.axis.utils.XMLUtils$ThreadLocalDocumentBuilder@2705cad1]) and a value of type [org.apache.xerces.jaxp.DocumentBuilderImpl] (value [org.apache.xerces.jaxp.DocumentBuilderImpl@3f62ffa]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Dec 20, 2021 5:43:57 AM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/ws] created a ThreadLocal with key of type [com.idiominc.ws.storage.TdTermStorage$16] (value [com.idiominc.ws.storage.TdTermStorage$16@5fb7a10a]) and a value of type [java.util.ArrayList] (value [[com.idiominc.ws.storage.TdTermStorage$HashCache@17c7c81e]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Dec 20, 2021 5:43:57 AM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/ws] created a ThreadLocal with key of type [org.apache.axis.utils.XMLUtils.ThreadLocalDocumentBuilder] (value [org.apache.axis.utils.XMLUtils$ThreadLocalDocumentBuilder@2705cad1]) and a value of type [org.apache.xerces.jaxp.DocumentBuilderImpl] (value [org.apache.xerces.jaxp.DocumentBuilderImpl@3d2335c4]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Dec 20, 2021 5:43:57 AM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/ws] created a ThreadLocal with key of type [org.apache.axis.utils.XMLUtils.ThreadLocalDocumentBuilder] (value [org.apache.axis.utils.XMLUtils$ThreadLocalDocumentBuilder@2705cad1]) and a value of type [org.apache.xerces.jaxp.DocumentBuilderImpl] (value [org.apache.xerces.jaxp.DocumentBuilderImpl@529ef637]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Dec 20, 2021 5:43:57 AM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/ws] created a ThreadLocal with key of type [com.idiominc.ws.storage.TdTermStorage$16] (value [com.idiominc.ws.storage.TdTermStorage$16@5fb7a10a]) and a value of type [java.util.ArrayList] (value [[com.idiominc.ws.storage.TdTermStorage$HashCache@4236bf41]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Dec 20, 2021 5:43:57 AM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/ws] created a ThreadLocal with key of type [java.lang.InheritableThreadLocal] (value [java.lang.InheritableThreadLocal@565a901f]) and a value of type [com.idiominc.wssdk.scoping.WSScopingMode] (value [WORLDSERVER9X]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Dec 20, 2021 5:43:57 AM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/ws] created a ThreadLocal with key of type [org.apache.axis.utils.XMLUtils.ThreadLocalDocumentBuilder] (value [org.apache.axis.utils.XMLUtils$ThreadLocalDocumentBuilder@2705cad1]) and a value of type [org.apache.xerces.jaxp.DocumentBuilderImpl] (value [org.apache.xerces.jaxp.DocumentBuilderImpl@1846665d]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Dec 20, 2021 5:43:57 AM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/ws] created a ThreadLocal with key of type [java.lang.InheritableThreadLocal] (value [java.lang.InheritableThreadLocal@565a901f]) and a value of type [com.idiominc.wssdk.scoping.WSScopingMode] (value [WORLDSERVER9X]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Dec 20, 2021 5:43:57 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+Dec 20, 2021 5:43:57 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Dec 20, 2021 5:43:57 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+Dec 20, 2021 5:43:57 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Dec 20, 2021 5:44:15 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.63
+Dec 20, 2021 5:44:15 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Jun 30 2015 08:08:33 UTC
+Dec 20, 2021 5:44:15 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.63.0
+Dec 20, 2021 5:44:15 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Dec 20, 2021 5:44:15 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            3.10.0-1127.el7.x86_64
+Dec 20, 2021 5:44:15 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Dec 20, 2021 5:44:15 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.261-2.6.22.2.el7_8.x86_64/jre
+Dec 20, 2021 5:44:15 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.7.0_261-mockbuild_2020_04_29_08_59-b00
+Dec 20, 2021 5:44:15 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Dec 20, 2021 5:44:15 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /usr/local/idiom/worldserver/apache-tomcat-7.0.63-x64
+Dec 20, 2021 5:44:15 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /usr/local/idiom/worldserver/apache-tomcat-7.0.63-x64
+Dec 20, 2021 5:44:15 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/usr/local/idiom/worldserver/apache-tomcat-7.0.63-x64/conf/logging.properties
+Dec 20, 2021 5:44:15 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Dec 20, 2021 5:44:15 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=/usr/local/idiom/worldserver/apache-tomcat-7.0.63-x64/endorsed
+Dec 20, 2021 5:44:15 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/usr/local/idiom/worldserver/apache-tomcat-7.0.63-x64
+Dec 20, 2021 5:44:15 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/usr/local/idiom/worldserver/apache-tomcat-7.0.63-x64
+Dec 20, 2021 5:44:15 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/usr/local/idiom/worldserver/apache-tomcat-7.0.63-x64/temp
+Dec 20, 2021 5:44:15 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Dec 20, 2021 5:44:15 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Dec 20, 2021 5:44:15 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Dec 20, 2021 5:44:15 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 599 ms
+Dec 20, 2021 5:44:15 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Dec 20, 2021 5:44:15 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.63
+Dec 20, 2021 5:44:15 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /usr/local/idiom/worldserver/apache-tomcat-7.0.63-x64/webapps/ws.war
+Dec 20, 2021 5:44:22 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jsptags.com/tags/navigation/pager is already defined
+Dec 20, 2021 5:44:22 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jsptags.com/tags/navigation/pager is already defined
+Dec 20, 2021 5:44:22 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Dec 20, 2021 5:44:29 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /usr/local/idiom/worldserver/apache-tomcat-7.0.63-x64/webapps/ws.war has finished in 14,203 ms
+Dec 20, 2021 5:44:29 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /usr/local/idiom/worldserver/apache-tomcat-7.0.63-x64/webapps/ROOT
+Dec 20, 2021 5:44:29 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /usr/local/idiom/worldserver/apache-tomcat-7.0.63-x64/webapps/ROOT has finished in 46 ms
+Dec 20, 2021 5:44:29 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Dec 20, 2021 5:44:29 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Dec 20, 2021 5:44:29 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 14358 ms
+Dec 20, 2021 5:45:18 AM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Dec 20, 2021 5:45:18 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+Dec 20, 2021 5:45:19 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Dec 20, 2021 5:45:19 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Dec 20, 2021 5:45:19 AM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+SEVERE: The web application [/ws] registered the JDBC driver [com.idiominc.jdbc.sqlserver.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Dec 20, 2021 5:45:19 AM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/ws] appears to have started a thread named [Thread-2] but has failed to stop it. This is very likely to create a memory leak.
+Dec 20, 2021 5:45:19 AM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/ws] appears to have started a thread named [Workflow Engine Watchdog] but has failed to stop it. This is very likely to create a memory leak.
+Dec 20, 2021 5:45:19 AM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/ws] appears to have started a thread named [Thread-4] but has failed to stop it. This is very likely to create a memory leak.
+Dec 20, 2021 5:45:19 AM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/ws] appears to have started a thread named [WFE daemon 1 (396917f5) on host "host-10-66-112-9.net-10-66-0-0.tt3.com"] but has failed to stop it. This is very likely to create a memory leak.
+Dec 20, 2021 5:45:19 AM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/ws] appears to have started a thread named [WFE daemon 2 (1f99fcd8) on host "host-10-66-112-9.net-10-66-0-0.tt3.com"] but has failed to stop it. This is very likely to create a memory leak.
+Dec 20, 2021 5:45:19 AM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/ws] appears to have started a thread named [WFE daemon 3 (6598d94a) on host "host-10-66-112-9.net-10-66-0-0.tt3.com"] but has failed to stop it. This is very likely to create a memory leak.
+Dec 20, 2021 5:45:19 AM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/ws] appears to have started a thread named [WFE daemon 4 (9272c0c) on host "host-10-66-112-9.net-10-66-0-0.tt3.com"] but has failed to stop it. This is very likely to create a memory leak.
+Dec 20, 2021 5:45:19 AM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/ws] appears to have started a thread named [BGE daemon 1 (2ae584f5) on host "host-10-66-112-9.net-10-66-0-0.tt3.com"] but has failed to stop it. This is very likely to create a memory leak.
+Dec 20, 2021 5:45:19 AM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/ws] appears to have started a thread named [BGE daemon 2 (5ca428be) on host "host-10-66-112-9.net-10-66-0-0.tt3.com"] but has failed to stop it. This is very likely to create a memory leak.
+Dec 20, 2021 5:45:19 AM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/ws] appears to have started a thread named [BGE daemon 3 (78583f68) on host "host-10-66-112-9.net-10-66-0-0.tt3.com"] but has failed to stop it. This is very likely to create a memory leak.
+Dec 20, 2021 5:45:19 AM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/ws] appears to have started a thread named [BGE daemon 4 (7bae7f63) on host "host-10-66-112-9.net-10-66-0-0.tt3.com"] but has failed to stop it. This is very likely to create a memory leak.
+Dec 20, 2021 5:45:19 AM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/ws] appears to have started a thread named [Notification Engine Daemon  (71a5070c)] but has failed to stop it. This is very likely to create a memory leak.
+Dec 20, 2021 5:45:19 AM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/ws] appears to have started a thread named [Recurrence Engine] but has failed to stop it. This is very likely to create a memory leak.
+Dec 20, 2021 5:45:19 AM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/ws] appears to have started a thread named [Thread-15] but has failed to stop it. This is very likely to create a memory leak.
+Dec 20, 2021 5:45:19 AM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/ws] appears to have started a thread named [Thread-18] but has failed to stop it. This is very likely to create a memory leak.
+Dec 20, 2021 5:45:19 AM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/ws] created a ThreadLocal with key of type [java.lang.InheritableThreadLocal] (value [java.lang.InheritableThreadLocal@6a43ab06]) and a value of type [com.idiominc.wssdk.scoping.WSScopingMode] (value [WORLDSERVER9X]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Dec 20, 2021 5:45:19 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+Dec 20, 2021 5:45:19 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Dec 20, 2021 5:45:19 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+Dec 20, 2021 5:45:19 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
